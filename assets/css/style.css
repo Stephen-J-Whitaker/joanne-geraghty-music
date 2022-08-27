@@ -40,6 +40,11 @@ footer {
     margin-top: 0;
 }
 
+/* menu styling */
+#menu li {
+    list-style-type: none;
+}
+
 /* Footer social media styling */
 .footer {
     display: flex;
