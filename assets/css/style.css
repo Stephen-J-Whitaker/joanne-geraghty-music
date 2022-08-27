@@ -1,9 +1,12 @@
 /* Footer social media styling */
 
 footer {
-    
+    display: flex;
+    justify-content: center;
 }
 
 .social-media-icon {
-    
+    height: 5%;
+    width: 5%;
+    padding: 1%;
 }
