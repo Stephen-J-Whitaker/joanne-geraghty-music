@@ -1,14 +1,16 @@
 /* Import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
-/* Header styling */
-header {
+/* Common header and footer styling */
+header,
+footer {
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-.header {
+.header, 
+.footer{
     box-sizing: border-box;
     width: 100%;
     background-color: rgba(182, 218, 218, .4);
@@ -17,6 +19,7 @@ header {
     margin: 3%;
 }
 
+/* Header styling */
 #logo {
     width: fit-content;
 }
@@ -57,7 +60,7 @@ footer {
     #logo {
         margin-left: 3%;
     }
-    
+
     #logo h1 {
         text-align: left;
     }
