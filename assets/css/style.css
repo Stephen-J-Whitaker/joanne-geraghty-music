@@ -27,6 +27,7 @@ footer {
 
 /* Header styling */
 #logo {
+    display: inline-block;
     width: fit-content;
 }
 
@@ -46,9 +47,23 @@ footer {
     margin-top: 0;
 }
 
+/* nav styling */
+nav {
+    display: inline-block;
+}
+
 /* menu styling */
+ul {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
 #menu li {
     list-style-type: none;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 1%;
 }
 
 /* Footer social media styling */
