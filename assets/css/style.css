@@ -79,8 +79,14 @@ ol {
     margin: 1%;
 }
 
+#menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
 #menu li a:hover {
-    color: white;
+    text-decoration: underline;
 }
 
 /* Footer social media styling */
