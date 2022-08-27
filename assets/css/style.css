@@ -7,8 +7,13 @@ header {
     
 }
 
+#logo a {
+    text-decoration: none;
+}
+
 #logo h1 {
     font-family: Great Vibes, sans-serif;
+    font-size: 2rem;
 }
 
 logo h2 {
