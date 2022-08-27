@@ -3,8 +3,18 @@
 
 /* Header styling */
 header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.header {
+    box-sizing: border-box;
     width: 100%;
     background-color: rgba(182, 218, 218, .4);
+    padding: 1%;
+    border-radius: 10px;
+    margin: 3%;
 }
 
 #logo {
@@ -32,6 +42,7 @@ footer {
     background-color: rgba(182, 218, 218, .4);
     display: flex;
     justify-content: center;
+    padding: 1%
 }
 
 .social-media-icon {
@@ -42,6 +53,11 @@ footer {
 
 /* For larger screen sizes 400px and up */
 @media screen and (min-width: 400px){
+
+    #logo {
+        margin-left: 3%;
+    }
+    
     #logo h1 {
         text-align: left;
     }
