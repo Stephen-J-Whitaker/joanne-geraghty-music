@@ -7,8 +7,8 @@ header {
     
 }
 
-logo h1 {
-
+#logo h1 {
+    font-family: Great Vibes, sans-serif;
 }
 
 logo h2 {
