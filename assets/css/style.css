@@ -2,9 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap')
 
 /* Header styling */
-
 header {
     
+}
+
+#logo {
+    width: 100%;
 }
 
 #logo a {
@@ -13,15 +16,17 @@ header {
 
 #logo h1 {
     font-family: Great Vibes, sans-serif;
-    font-size: 2rem;
+    color: black;
+    font-size: 2.5rem;
+    text-align: center;
 }
 
-logo h2 {
-    
+#logo h2 {
+    text-align: center;
+    margin-top: 0;
 }
 
 /* Footer social media styling */
-
 footer {
     display: flex;
     justify-content: center;
@@ -31,4 +36,11 @@ footer {
     height: 5%;
     width: 5%;
     padding: 1%;
+}
+
+/* For larger screen sizes 400px and up */
+@media screen and (min-width: 400px){
+    #logo {
+
+    }
 }
