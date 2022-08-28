@@ -148,6 +148,7 @@ nav ol {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* gig section styling */
 .main-gig-container {
     display: flex;
     justify-content: center;
@@ -198,8 +199,24 @@ nav ol {
     backdrop-filter: blur(3px);
 }
 
+/* newsletter section styling */
 #newsletter-container {
     margin-top: 3%;
+}
+
+#newsletter-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#newsletter-email-id {
+    margin-right: 1%;
+}
+
+#form-button:visited {
+    visibility: hidden;
 }
 
 /* Footer social media styling */
@@ -223,21 +240,12 @@ nav ol {
 
 .social-media-icon {
     width: 100%;
+    padding: 10%;
+    border-radius: 10px;
 }
 
-#newsletter-section {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
-#newsletter-email-id {
-    margin-right: 1%;
-}
-
-#form-button:visited {
-    visibility: hidden;
+.social-media-icon:hover {
+    box-shadow: 0px 0px 5px 1px rgb(33, 66, 66);
 }
 
 /* Form label styling */
