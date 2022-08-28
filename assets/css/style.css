@@ -6,11 +6,13 @@ body {
     background-color: rgba(237, 245, 245, 0.4);
 }
 
+header {
+    position: fixed;
+}
+
 /* Common header and footer styling */
 header,
 footer {
-    position: fixed;
-    z-index: 1;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -28,7 +30,6 @@ footer {
     box-shadow: 0px 0px 20px 1px rgba(51, 102, 102, .4);
 }
 
-/* Header styling */
 #logo {
     display: flex;
     justify-content: center;
@@ -68,18 +69,20 @@ ol {
     padding: 1%;
 }
 
+
 #menu li {
+    display: flex;
     list-style-type: none;
-    font-family: Arial, sans-serif;
-    text-transform: uppercase;
-    padding: 1%;
-    border: 1px solid rgba(51, 102, 102, .4);
-    background-color: rgba(28, 61, 61, 0.4);
-    border-radius: 10px;
-    margin: 1%;
 }
 
 #menu li a {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 0.2em;
+    border: 1px solid rgba(51, 102, 102, .4);
+    background-color: rgba(28, 61, 61, 0.4);
+    border-radius: 10px;
+    margin: 0.5em;
     text-decoration: none;
     text-align: center;
     color: black;
@@ -161,7 +164,6 @@ main section {
     }
 
     #logo {
-        display: inline-block;
         float: left;
         width: fit-content;
         margin-left: 3%;
