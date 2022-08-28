@@ -109,12 +109,6 @@ nav ol {
 }
 
 /* main styling */
-.section-header {
-    font-family: Great Vibes, sans-serif;
-    font-size: 2.5rem;
-    margin-bottom: 5px;
-}
-
 .main-container {
     display: flex;
     justify-content: center;
@@ -132,6 +126,23 @@ nav ol {
     backdrop-filter: blur(1px);
     border-radius: 10px;
     padding: 3%;
+}
+
+.section-header-container {
+    margin-bottom: 0;
+}
+
+.section-header {
+    margin-bottom: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.section-header h2 {
+    font-family: Great Vibes, sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
 }
 
 #bio {
