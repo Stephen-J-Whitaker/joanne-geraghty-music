@@ -109,12 +109,6 @@ ol {
 }
 
 /* main styling */
-main {
-    /* display: flex;
-    justify-content: center;
-    width: 100%; */
-}
-
 .main-container {
     display: flex;
     justify-content: center;
@@ -146,6 +140,11 @@ main {
 .gigs h3 {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.gigs:hover {
+    background-color: rgba(206, 224, 224, 0.9);
+    backdrop-filter: blur(3px);
 }
 
 /* Footer social media styling */
