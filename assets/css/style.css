@@ -198,6 +198,10 @@ nav ol {
     backdrop-filter: blur(3px);
 }
 
+#newsletter-container {
+    margin-top: 3%;
+}
+
 /* Footer social media styling */
 .footer {
     display: flex;
@@ -219,6 +223,25 @@ nav ol {
 
 .social-media-icon {
     width: 100%;
+}
+
+#newsletter-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#newsletter-email-id {
+    margin-right: 1%;
+}
+
+/* Form label styling */
+label {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 1%;
+    padding-top: .7%;
 }
 
 /* For larger screen sizes 900px and up */
