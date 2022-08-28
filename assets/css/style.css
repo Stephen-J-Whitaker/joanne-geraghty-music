@@ -108,6 +108,11 @@ ol {
 }
 
 /* main styling */
+main {
+    display: flex;
+    justify-content: center;
+}
+
 main section {
     width: 80%;
     text-align: center;
