@@ -1,0 +1,7 @@
+/* wedding specific body styling */
+body {
+    position: relative;
+    background: url("../media/images/IMG_1047.jpg") no-repeat center -15%;
+    background-size: cover;
+    background-color: rgba(237, 245, 245, 0.4);
+}
