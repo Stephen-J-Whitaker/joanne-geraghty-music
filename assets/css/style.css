@@ -35,6 +35,11 @@ footer {
     justify-content: center;
 }
 
+#logo:hover h1,
+#logo:hover h2 {
+    text-shadow: 0px 0px 20px rgba(51, 102, 102, 1);
+}
+
 #logo a {
     text-decoration: none;
     text-align: center;
