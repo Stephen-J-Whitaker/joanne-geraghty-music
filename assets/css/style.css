@@ -144,7 +144,8 @@ nav ol {
     padding: 0;
 }
 
-#bio {
+#bio,
+#wedding-section p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -255,6 +256,16 @@ label {
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 1%;
     padding-top: .7%;
+}
+
+/* In text anchor link styling */
+.in-text-link {
+    font-weight: bold;
+    color: black;
+}
+
+.in-text-link:hover {
+    text-shadow: 0px 0px 20px rgba(51, 102, 102, 1);
 }
 
 /* For larger screen sizes 900px and up */
