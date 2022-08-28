@@ -236,6 +236,10 @@ nav ol {
     margin-right: 1%;
 }
 
+#form-button:visited {
+    visibility: hidden;
+}
+
 /* Form label styling */
 label {
     font-weight: bold;
