@@ -92,6 +92,7 @@ nav ol {
     text-align: center;
     color: black;
     box-shadow: none;
+    width: 7rem;
 }
 
 #menu li a:hover {
