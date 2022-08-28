@@ -138,7 +138,14 @@ main {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#gigs {
+.gigs {
+    text-decoration: none;
+    color: black;
+}
+
+.gigs h3 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Footer social media styling */
