@@ -64,7 +64,7 @@ footer {
 }
 
 /* menu styling */
-ol {
+nav ol {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -141,6 +141,7 @@ ol {
 }
 
 .gig-container {
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -157,11 +158,12 @@ ol {
     backdrop-filter: blur(1px);
     border-radius: 10px;
     padding: 3%;
-    text-decoration: none;
     color: black;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.gigs h3 {
+.gigs ol h3 {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
