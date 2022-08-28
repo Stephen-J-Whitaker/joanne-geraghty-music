@@ -109,6 +109,12 @@ nav ol {
 }
 
 /* main styling */
+.section-header {
+    font-family: Great Vibes, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
 .main-container {
     display: flex;
     justify-content: center;
