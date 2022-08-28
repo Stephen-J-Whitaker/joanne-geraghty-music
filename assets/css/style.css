@@ -200,7 +200,8 @@ nav ol {
 }
 
 /* newsletter section styling */
-#newsletter-container {
+#newsletter-container,
+#wedding-container {
     margin-top: 3%;
 }
 
