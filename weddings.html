@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A site all about Joanne Geraghty and her music">
+    <meta name="keywords" content="Joanne Geraghty, music, Mayo, Ireland">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Joanne Geraghty Music</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Div inserted to enable horizontal centering of header content on screen with a margin all around edge  -->
+        <div class="header">
+            <div id="logo">
+                <a href="index.html" aria-label="Joanne Geraghty logo (links to The main website page)">
+                    <h1>Joanne Geraghty Music</h1>
+                    <h2>Music for all occasion</h2>
+                </a>
+            </div>
+            <!-- Semantic nav container and items inserted as ordered list to show order is important and should be maintained -->
+            <nav>
+                <ol id="menu">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="weddings.html" class="active">Weddings</a>    
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ol>    
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main-container section-header-container">
+            <div class="main-section section-header" id="newsletter">
+                <h2>Newsletter</h2>
+            </div>
+        </div>
+        <!-- action and method properties left out as this is a dummy page and there is no back end server for post processing -->
+        <form class="main-container" id="newsletter-container">
+            <div class="main-section" id="newsletter-section">
+                <label for="newsletter-email-id">Email</label>
+                <input type="email" name="newsletter-email" id="newsletter-email-id">
+                <input type="submit" name="newsletter-submit" id="form-button">
+            </div>
+        </form>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <!-- Div inserted to enable horizontal centering of footer content on screen with a margin all around edge  -->
+        <div class="footer">
+            <!-- Social media links -->
+            <!-- Socia media icons supplied by font awsome https://fontawesome.com/  -->
+            <a href="https://www.facebook.com/JoGeraghtyMusic/" class="social-media-anchor" target="_blank" rel="noopener" aria-label="Visit Joanne's Facebook page (opens in new tab)">
+                <img src="assets/media/icons/facebook-brands.svg"  class="social-media-icon" alt="Facebook social media icon">
+            </a>
+            <a href="https://www.instagram.com/joannegeraghtymusic/" class="social-media-anchor" target="_blank" rel="noopener" aria-label="Visit Joanne's Instagram page (opens in new tab)">
+                <img src="assets/media/icons/instagram-brands.svg" class="social-media-icon" alt="Instagram social media icon">
+            </a>
+            <a href="https://www.youtube.com/user/countryroads2009" class="social-media-anchor"  target="_blank" rel="noopener" aria-label="Visit Joanne's You Tube page (opens in new tab)">
+                <img src="assets/media/icons/square-youtube-brands.svg" class="social-media-icon" alt="You social media Tube icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
