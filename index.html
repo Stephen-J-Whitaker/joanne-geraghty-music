@@ -106,17 +106,15 @@
         <div class="main-container section-header-container">
             <div class="main-section section-header" id="newsletter">
                 <h2>Newsletter Request</h2>
+                <!-- action send to a dunny server and the response is sent to a new tab so the flow of the website stays as it would if there was a real back end server -->
+                <!-- The dummy server is courtesy of https://formdump.codeinstitute.net/ -->
+                <form class="main-container" id="newsletter-container" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
+                        <label for="newsletter-email-id">Email</label>
+                        <input type="email" name="newsletter-email" id="newsletter-email-id">
+                        <input type="submit" name="newsletter-submit" id="newsletter-submit-button">
+                </form>
             </div>
         </div>
-        <!-- action send to a dunny server and the response is sent to a new tab so the flow of the website stays as it would if there was a real back end server -->
-        <!-- The dummy server is courtesy of https://formdump.codeinstitute.net/ -->
-        <form class="main-container" id="newsletter-container" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
-            <div class="main-section" id="newsletter-section">
-                <label for="newsletter-email-id">Email</label>
-                <input type="email" name="newsletter-email" id="newsletter-email-id">
-                <input type="submit" name="newsletter-submit" id="newsletter-submit-button">
-            </div>
-        </form>
     </main>
     <!-- Footer -->
     <footer>
