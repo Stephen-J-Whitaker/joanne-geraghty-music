@@ -51,7 +51,7 @@
                 <p>
                     Jo is a singer songwriter who is passionate about her music. She has been writing her own songs since she was in her early teens and plays the guitar.
                 </p>
-                </p>
+                <p>
                     Jo regularly performs her music at gigs for the public and private events both on her own and with Bridget McMahon in and around the Connacht area in Ireland. 
                 </p>
             </div>
@@ -110,12 +110,13 @@
                 <h2>Newsletter Request</h2>
             </div>
         </div>
-        <!-- action and method properties left out as this is a dummy page and there is no back end server for post processing -->
-        <form class="main-container" id="newsletter-container">
+        <!-- action send to a dunny server and the response is sent to a new tab so the flow of the website stays as it would if there was a real back end server -->
+        <!-- The dummy server is courtesy of https://formdump.codeinstitute.net/ -->
+        <form class="main-container" id="newsletter-container" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
             <div class="main-section" id="newsletter-section">
                 <label for="newsletter-email-id">Email</label>
                 <input type="email" name="newsletter-email" id="newsletter-email-id">
-                <input type="submit" name="newsletter-submit" id="form-button">
+                <input type="submit" name="newsletter-submit" id="newsletter-submit-button">
             </div>
         </form>
     </main>
