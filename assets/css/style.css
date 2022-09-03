@@ -3,13 +3,13 @@
 
 /* body styling */
 body {
-    background: url("../media/images/jo-portrait.jpg") no-repeat center center;
+    background: url("../media/images/jo-on-beach-guitar.jpg") no-repeat center center fixed;
     background-size: cover;
     background-color: rgba(237, 245, 245, 0.4);
 }
 
 .wedding-body {
-    background: url("../media/images/wedding-1.jpg") no-repeat center center;
+    background: url("../media/images/wedding-1.jpg") no-repeat center center fixed;
     background-size: cover;
     background-color: rgba(237, 245, 245, 0.4);
 }
