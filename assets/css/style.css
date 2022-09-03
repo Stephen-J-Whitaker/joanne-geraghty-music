@@ -101,7 +101,7 @@ nav ol {
     margin: 0.5em;
     text-decoration: none;
     text-align: center;
-    color: black;
+    color: rgb(0, 58, 58);
     box-shadow: none;
     width: 7rem;
 }
@@ -150,8 +150,9 @@ nav ol {
 }
 
 .section-header h2 {
+    color: rgb(0, 58, 58);
     font-family: Great Vibes, sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0;
     padding: 0;
 }
@@ -159,6 +160,7 @@ nav ol {
 .main-section p {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 700px;
+    color: rgb(0, 58, 58);
 }
 
 .main-section {
@@ -190,6 +192,8 @@ nav ol {
 }
 
 .gigs {
+    display: flex;
+    flex-direction: column;
     width: auto;
     box-sizing: border-box;
     text-align: center;
@@ -204,18 +208,27 @@ nav ol {
     padding: 1rem;
 }
 
-.gigs h3 {
+.gigs div {
     margin: 0;
+    font-weight: bold;
+    color: rgb(0, 58, 58);
 }
 
-.gigs ol {
-    padding: 0;
-    list-style-type: none;
+.gigs span {
+    color: rgb(0, 73, 73);
+}
+
+.gig-town {
+    font-style: italic;
 }
 
 .gigs:hover {
     background-color: rgba(206, 224, 224, 0.9);
     backdrop-filter: blur(3px);
+}
+
+label {
+    color: rgb(0, 58, 58);
 }
 
 /* newsletter section styling */
@@ -312,7 +325,7 @@ label {
 /* In text anchor link styling */
 .in-text-link {
     font-weight: bold;
-    color: black;
+    color: rgb(0, 58, 58);
 }
 
 .in-text-link:hover {
