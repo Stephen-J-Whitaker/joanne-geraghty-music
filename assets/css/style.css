@@ -145,8 +145,8 @@ nav ol {
 
 .section-header {
     margin-bottom: 0;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .section-header h2 {
@@ -227,16 +227,14 @@ nav ol {
     backdrop-filter: blur(3px);
 }
 
-label {
-    color: rgb(0, 58, 58);
-}
-
-/* newsletter section styling */
+/* common-container-styles */
 #newsletter-container,
-#wedding-container {
+#wedding-container
+#gallery-container {
     margin-top: 3%;
 }
 
+/* newsletter section styling */
 #newsletter-section {
     display: flex;
     justify-content: center;
@@ -246,6 +244,14 @@ label {
 
 #newsletter-email-id {
     margin-right: 1%;
+    border-radius: 10px;
+    width: 20rem;
+    border: 1px solid rgba(51, 102, 102, .4);;
+}
+
+#newsletter-email-id:hover {
+    border: 1px solid rgba(51, 102, 102, 1);
+    box-shadow: 0px 0px 5px 1px rgb(33, 66, 66);
 }
 
 #newsletter-submit-button {
@@ -298,7 +304,7 @@ label {
     box-shadow: 0px 0px 5px 1px rgb(33, 66, 66);
 }
 
-/* wedding section styling */
+/* wedding content styling */
 #wedding-gallery-container {
     display: flex;
     justify-content: center;
@@ -308,9 +314,9 @@ label {
     width: 80%;
 }
 
-.wedding-gallery-section {
-    width: 250px;
-    height: 250px;
+.wedding-gallery-item {
+    max-width: 250px;
+    max-height: 250px;
     background-color: rgba(206, 224, 224, 0.7);
     backdrop-filter: blur(1px);
     border-radius: 10px;
@@ -326,12 +332,43 @@ label {
     object-fit: fill;
 }
 
+/* gallery content styling */
+#gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 80%;
+}
+
+.gallery-item {
+    max-width: 250px;
+    max-height: 250px;
+    background-color: rgba(206, 224, 224, 0.7);
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.gallery {
+    border-radius: 10px;
+    height: 100%;
+}
+
+.gallery video {
+    object-fit: fill;
+}
+
 /* Form label styling */
 label {
+    color: rgb(0, 58, 58);
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 1%;
-    padding-top: .7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /* In text anchor link styling */
