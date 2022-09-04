@@ -6,6 +6,7 @@ body {
     height: 100%;
 }
 
+
 /* body styling */
 body {
     background: url("../media/images/jo-on-beach-guitar.jpg") no-repeat center center fixed;
@@ -294,6 +295,10 @@ nav ol {
     box-shadow: 0px 0px 5px 1px rgb(33, 66, 66);
 }
 
+#contact-sub-container {
+    width: auto;
+}
+
 /* footer styling */
 footer {
     margin-top: auto;
@@ -394,6 +399,17 @@ label {
     justify-content: space-around;
 }
 
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#contact-form h2 {
+    padding-bottom: 15px;
+}
+
 /* In text anchor link styling */
 .in-text-link {
     font-weight: bold;
@@ -449,5 +465,9 @@ label {
     
     #logo h2 {
         text-align: center;
+    }
+
+    #contact-sub-container {
+        width: 40%;
     }
 }
