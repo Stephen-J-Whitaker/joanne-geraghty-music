@@ -34,11 +34,11 @@ footer {
 .header, 
 .footer {
     width: 100%;
-    background-color: rgba(182, 218, 218, .7);
+    background-color: rgba(182, 218, 218, 0.7);
     padding: 1%;
     border-radius: 10px;
     margin: 3%;
-    box-shadow: 0px 0px 20px 1px rgba(51, 102, 102, .4);
+    box-shadow: 0px 0px 20px 1px rgba(51, 102, 102, 0.4);
     backdrop-filter: blur(7px);
 }
 
@@ -103,7 +103,7 @@ nav ol {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     padding: 0.3em;
-    border: 1px solid rgba(51, 102, 102, .4);
+    border: 1px solid rgba(51, 102, 102, 0.4);
     background-color: rgba(28, 61, 61, 0.4);
     border-radius: 10px;
     margin: 0.5em;
@@ -198,6 +198,10 @@ nav ol {
     text-decoration: none;
 }
 
+.gig-header {
+    margin-bottom: 0;
+}
+
 .gigs {
     display: flex;
     flex-direction: column;
@@ -235,28 +239,29 @@ nav ol {
 }
 
 /* newsletter and contact section styling */
-#newsletter-section,
-#contact-section {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
 #newsletter-email-id,
-#contact-email-id {
+.contact-input {
     margin-right: 1%;
     border-radius: 10px;
     width: 20rem;
     height: 2rem;
     text-align: center;
-    border: 1px solid rgba(51, 102, 102, .4);
+    border: 1px solid rgba(51, 102, 102, 0.4);
     outline: none;
+}
+
+.contact-label {
+    margin-bottom: 0.5rem;
+}
+
+.contact-input {
+    margin-bottom: 1rem;
 }
 
 #newsletter-email-id:hover,
 #newsletter-email-id:focus,
-#contact-email-id:hover {
+.contact-input:hover,
+.contact-input:focus {
     border: 1px solid rgba(51, 102, 102, 1);
     box-shadow: 0px 0px 5px 1px rgb(33, 66, 66);
 }
@@ -266,7 +271,7 @@ nav ol {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     padding: 0.3em;
-    border: 1px solid rgba(51, 102, 102, .4);
+    border: 1px solid rgba(51, 102, 102, 0.4);
     background-color: rgba(28, 61, 61, 0.4);
     border-radius: 10px;
     margin: 0.5em;
@@ -277,7 +282,13 @@ nav ol {
     width: 7rem;
 }
 
-#newsletter-submit-button:hover {
+#contact-submit-button {
+    width: 9rem;
+    height: 2rem;
+}
+
+#newsletter-submit-button:hover,
+#contact-submit-button:hover {
     border: 1px solid rgba(51, 102, 102, 1);
     background-color: rgba(74, 105, 105, 0.4);
     box-shadow: 0px 0px 5px 1px rgb(33, 66, 66);
@@ -378,7 +389,6 @@ label {
     color: rgb(0, 58, 58);
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    margin-right: 1%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -394,8 +404,8 @@ label {
     text-shadow: 0px 0px 20px rgba(51, 102, 102, 1);
 }
 
-/* For larger screen sizes 900px and up */
-@media screen and (min-width: 900px){
+/* For larger screen sizes 1100px and up */
+@media screen and (min-width: 1100px){
     body {
     background: url("../media/images/jo-on-beach-guitar.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -415,11 +425,11 @@ label {
     .footer {
         display: flex;
         width: 100%;
-        background-color: rgba(182, 218, 218, .7);
+        background-color: rgba(182, 218, 218, 0.7);
         padding: 1%;
         border-radius: 10px;
         margin: 3%;
-        box-shadow: 0px 0px 20px 1px rgba(51, 102, 102, .4);
+        box-shadow: 0px 0px 20px 1px rgba(51, 102, 102, 0.4);
     }
 
     nav ol {
