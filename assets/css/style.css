@@ -127,11 +127,6 @@ nav ol {
     border-radius: 10px;
 }
 
-/* main styling */
-/* main {
-    height: 100%;
-} */
-
 .main-container {
     display: flex;
     justify-content: center;
@@ -140,7 +135,7 @@ nav ol {
     margin-bottom: 3%;
 }
 
-.main-section {
+.sub-container {
     width: 80%;
     text-align: center;
     font-size: large;
@@ -151,17 +146,17 @@ nav ol {
     padding: 3%;
 }
 
-.section-header-container {
+.container-header {
     margin-bottom: 0;
 }
 
-.section-header {
+.sub-container-header {
     margin-bottom: 0;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-.section-header h2 {
+.sub-container-header h2 {
     color: rgb(0, 58, 58);
     font-family: Great Vibes, sans-serif;
     font-size: 2rem;
@@ -169,13 +164,13 @@ nav ol {
     padding: 0;
 }
 
-.main-section p {
+.sub-container p {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 700px;
     color: rgb(0, 58, 58);
 }
 
-.main-section {
+.sub-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -239,27 +234,35 @@ nav ol {
     backdrop-filter: blur(3px);
 }
 
-/* newsletter section styling */
-#newsletter-section {
+/* newsletter and contact section styling */
+#newsletter-section,
+#contact-section {
     display: flex;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
 }
 
-#newsletter-email-id {
+#newsletter-email-id,
+#contact-email-id {
     margin-right: 1%;
     border-radius: 10px;
     width: 20rem;
-    border: 1px solid rgba(51, 102, 102, .4);;
+    height: 2rem;
+    text-align: center;
+    border: 1px solid rgba(51, 102, 102, .4);
+    outline: none;
 }
 
-#newsletter-email-id:hover {
+#newsletter-email-id:hover,
+#newsletter-email-id:focus,
+#contact-email-id:hover {
     border: 1px solid rgba(51, 102, 102, 1);
     box-shadow: 0px 0px 5px 1px rgb(33, 66, 66);
 }
 
-#newsletter-submit-button {
+#newsletter-submit-button,
+#contact-submit-button {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     padding: 0.3em;

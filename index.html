@@ -42,8 +42,8 @@
     </header>
     <main>
         <section class="main-container">
-            <div class="main-section" id="bio">
-                <div class="section-header">
+            <div class="sub-container" id="bio">
+                <div class="sub-container-header">
                     <h2>About Jo</h2>
                 </div>
                 <p>
@@ -55,7 +55,7 @@
             </div>
         </section>
         <div class="main-container section-header-container">
-            <div class="main-section section-header">
+            <div class="sub-container sub-container-header">
                 <h2>Upcoming Gigs</h2>
             </div>
         </div>
@@ -97,15 +97,15 @@
                 </li>
             </ol>    
         </div> 
-        <div class="main-container section-header-container">
-            <div class="main-section section-header" id="newsletter">
+        <div class="main-container container-header">
+            <div class="sub-container sub-container-header">
                 <h2>Newsletter Request</h2>
                 <!-- action send to a dunny server and the response is sent to a new tab so the flow of the website stays as it would if there was a real back end server -->
                 <!-- The dummy server is courtesy of https://formdump.codeinstitute.net/ -->
-                <form class="main-container" id="newsletter-container" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
+                <form class="newsletter-container" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
                         <label for="newsletter-email-id">Email</label>
                         <input type="email" name="newsletter-email" id="newsletter-email-id">
-                        <input type="submit" name="newsletter-submit" id="newsletter-submit-button">
+                        <input type="submit" name="newsletter-submit" id="newsletter-submit-button" value="Submit">
                 </form>
             </div>
         </div>
