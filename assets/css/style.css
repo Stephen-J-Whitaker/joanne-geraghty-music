@@ -111,7 +111,7 @@ nav ol {
     text-transform: uppercase;
     padding: 0.3em;
     border: 1px solid rgba(51, 102, 102, 0.4);
-    background-color: rgba(28, 61, 61, 0.4);
+    background-color: rgb(98, 136, 136);
     border-radius: 10px;
     margin: 0.5em;
     text-decoration: none;
@@ -123,13 +123,13 @@ nav ol {
 
 #menu li a:hover {
     border: 1px solid rgba(51, 102, 102, 1);
-    background-color: rgba(74, 105, 105, 0.4);
+    background-color: rgb(133, 165, 165);
     box-shadow: 0px 0px 5px 1px rgb(33, 66, 66);
 }
 
 #menu .active {
     border: 1px solid rgba(51, 102, 102, 1);
-    background-color: rgba(74, 105, 105, 0.4);
+    background-color: rgb(133, 165, 165);
     box-shadow: 0px 0px 5px 1px rgb(33, 66, 66);
     border-radius: 10px;
 }
@@ -279,7 +279,7 @@ nav ol {
     text-transform: uppercase;
     padding: 0.3em;
     border: 1px solid rgba(51, 102, 102, 0.4);
-    background-color: rgba(28, 61, 61, 0.4);
+    background-color: rgb(98, 136, 136);
     border-radius: 10px;
     margin: 0.5em;
     text-decoration: none;
@@ -297,7 +297,7 @@ nav ol {
 #newsletter-submit-button:hover,
 #contact-submit-button:hover {
     border: 1px solid rgba(51, 102, 102, 1);
-    background-color: rgba(74, 105, 105, 0.4);
+    background-color: rgb(133, 165, 165);
     box-shadow: 0px 0px 5px 1px rgb(33, 66, 66);
 }
 
