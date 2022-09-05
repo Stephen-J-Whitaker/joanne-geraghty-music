@@ -219,7 +219,6 @@ nav ol {
     background-color: rgba(206, 224, 224, 0.7);
     backdrop-filter: blur(1px);
     border-radius: 10px;
-    color: black;
     margin: 3%;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1rem;
@@ -235,6 +234,11 @@ nav ol {
     color: rgb(0, 73, 73);
 }
 
+.gig-venue {
+    font-weight: bold;
+}
+
+.gig-venue,
 .gig-town {
     font-style: italic;
 }
@@ -254,6 +258,10 @@ nav ol {
     text-align: center;
     border: 1px solid rgba(51, 102, 102, 0.4);
     outline: none;
+}
+
+#newsletter-email-id {
+    width: 15rem;
 }
 
 .contact-label {
