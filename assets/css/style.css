@@ -8,7 +8,6 @@ body {
 
 /* body styling */
 body {
-    height: 2000px;
     background: url("../media/images/jo-on-beach-guitar.jpg") no-repeat center center fixed;
     background-size: cover;
     background-color: rgba(237, 245, 245, 0.4);
@@ -301,7 +300,7 @@ nav ol {
 
 /* footer styling */
 footer {
-    /* margin-top: auto; */
+    margin-top: auto;
 }
 
 /* Footer social media styling */
@@ -470,9 +469,5 @@ label {
 
     #contact-sub-container {
         width: 40%;
-    }
-
-    footer {
-        margin-top: auto;
     }
 }
