@@ -79,7 +79,6 @@ footer {
 #logo a {
     text-decoration: none;
     text-align: center;
-    color: black;
 }
 
 /* nav styling */
@@ -284,7 +283,7 @@ nav ol {
     margin: 0.5em;
     text-decoration: none;
     text-align: center;
-    color: black;
+    color: rgb(0, 58, 58);
     box-shadow: none;
     width: 7rem;
 }
