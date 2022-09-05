@@ -403,10 +403,27 @@ label {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-bottom: 0;
 }
 
 #contact-form h2 {
     padding-bottom: 15px;
+}
+.contact-input {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 0;
+}
+
+#regarding-id {
+    color: rgb(0, 58, 58);
+    padding: 1px 2px;
+}
+
+#message-id {
+    resize: none;
+    height: 10rem;
+    color: rgb(0, 58, 58);
 }
 
 /* In text anchor link styling */
