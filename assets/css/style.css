@@ -6,9 +6,9 @@ body {
     height: 100%;
 }
 
-
 /* body styling */
 body {
+    height: 2000px;
     background: url("../media/images/jo-on-beach-guitar.jpg") no-repeat center center fixed;
     background-size: cover;
     background-color: rgba(237, 245, 245, 0.4);
@@ -301,7 +301,7 @@ nav ol {
 
 /* footer styling */
 footer {
-    margin-top: auto;
+    /* margin-top: auto; */
 }
 
 /* Footer social media styling */
@@ -423,6 +423,7 @@ label {
 /* For larger screen sizes 1100px and up */
 @media screen and (min-width: 1100px){
     body {
+    height: 100%;
     background: url("../media/images/jo-on-beach-guitar.jpg") no-repeat center center fixed;
     background-size: cover;
     background-color: rgba(237, 245, 245, 0.4);
@@ -469,5 +470,9 @@ label {
 
     #contact-sub-container {
         width: 40%;
+    }
+
+    footer {
+        margin-top: auto;
     }
 }
