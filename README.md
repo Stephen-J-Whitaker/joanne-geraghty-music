@@ -8,6 +8,27 @@ The overall objective is for the site to be an enjoyable destination for any use
 
 ## **Project Initiation**
 
-The features required for the project to be a success were derived from brainstorming sessions that helped to ascertain the business and user needs. Please find the results of these sessions via the link below:
+1. Brainstorming sessions helped to ascertain the business and user needs:
 
-[Business opportunities and business and user needs](docs/readme-brainstorm.pdf)
+    [Business opportunities and business and user needs brainstorm](docs/readme-brainstorm.pdf)
+
+2. The opportunities were assessed for importance and viability and the minimum viable product was ascetertained:
+
+    [Minimum viable product analysis spreadsheet](docs/readme-opportunity-analysis.pdf)
+
+    [Minimum viable prodct analysis charts](docs/readme-scope-analysis.pdf)
+
+4.  User needs were checked to make sure they satisfy a business opportunity:
+
+    [User need to business opportunity connection analysis](docs/readme-user-need-business-opporuntity-link.pdf)
+
+5. User stories were developed:
+
+    [User stories](docs/readme-user-stories.pdf)
+
+6. A feature list was developed from the user stories and it was ensured that the was no duplicated functionality going into development:
+
+    [Feature list](docs/readme-feature-list.pdf)
+
+
+
