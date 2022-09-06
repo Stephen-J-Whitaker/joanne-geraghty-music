@@ -8,7 +8,7 @@ body {
 
 /* body styling */
 body {
-    background: url("../media/images/jo-on-beach-guitar.jpg") no-repeat center center fixed;
+    background: url("../media/images/common-background-jo-on-beach-guitar.jpg") no-repeat center center fixed;
     background-size: cover;
     background-color: rgba(237, 245, 245, 0.4);
     display: flex;
@@ -16,7 +16,7 @@ body {
 }
 
 .wedding-body {
-    background: url("../media/images/wedding.jpg") no-repeat center center fixed;
+    background: url("../media/images/weddings-background-couple.jpg") no-repeat center center fixed;
     background-size: cover;
     background-color: rgba(237, 245, 245, 0.4);
 }
