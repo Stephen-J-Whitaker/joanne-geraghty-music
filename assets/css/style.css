@@ -194,6 +194,8 @@ nav ol {
 .gig-container {
     list-style-type: none;
     display: flex;
+    row-gap: 10px;
+    column-gap: 10px;
     justify-content: center;
     flex-wrap: wrap;
     width: 80%;
@@ -211,10 +213,10 @@ nav ol {
 .gigs {
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 210px;
+    height: 155px;
     box-sizing: border-box;
     text-align: center;
-    font-size: large;
     font-weight: 50;
     background-color: rgba(206, 224, 224, 0.7);
     backdrop-filter: blur(1px);
@@ -226,6 +228,7 @@ nav ol {
 
 .gigs div {
     margin: 0;
+    font-size: large;
     font-weight: bold;
     color: rgb(0, 58, 58);
 }
@@ -236,9 +239,9 @@ nav ol {
 
 .gig-venue {
     font-weight: bold;
+    text-decoration: underline;
 }
 
-.gig-venue,
 .gig-town {
     font-style: italic;
 }
