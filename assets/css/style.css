@@ -214,7 +214,7 @@ nav ol {
     display: flex;
     flex-direction: column;
     width: 210px;
-    height: 155px;
+    height: 142px;
     box-sizing: border-box;
     text-align: center;
     font-weight: 50;
@@ -247,6 +247,8 @@ nav ol {
 }
 
 .gigs:hover {
+    border: 1px solid rgba(51, 102, 102, 1);
+    box-shadow: 0px 0px 5px 1px rgb(33, 66, 66);
     background-color: rgba(206, 224, 224, 0.9);
     backdrop-filter: blur(3px);
 }
