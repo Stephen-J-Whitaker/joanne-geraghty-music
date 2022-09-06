@@ -1,88 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A site all about Joanne Geraghty and her music">
-    <meta name="keywords" content="Joanne Geraghty, music, Mayo, Ireland">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A site all about Joanne Geraghty and her music">
+        <meta name="keywords" content="Joanne Geraghty, music, Mayo, Ireland">
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Joanne Geraghty Music</title>
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <!-- Div inserted to enable horizontal centering of header content on screen with a margin all around edge  -->
-        <div class="header">
-            <div id="logo">
-                <a href="index.html" aria-label="Joanne Geraghty logo (links to The main website page)">
-                    <h1>Joanne Geraghty Music</h1>
-                    <h2>Music for all occasions</h2>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Joanne Geraghty Music</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <!-- Div inserted to enable horizontal centering of header content on screen with a margin all around edge  -->
+            <div class="header">
+                <div id="logo">
+                    <a href="index.html" aria-label="Joanne Geraghty logo (links to The main website page)">
+                        <h1>Joanne Geraghty Music</h1>
+                        <h2>Music for all occasions</h2>
+                    </a>
+                </div>
+                <!-- Semantic nav container and items inserted as ordered list to show order is important and should be maintained -->
+                <nav>
+                    <ol id="menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="weddings.html">Weddings</a>    
+                        </li>
+                        <li>
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="active">Contact</a>
+                        </li>
+                    </ol>    
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!-- action and method properties left out as this is a dummy page and there is no back end server for post processing -->
+            <form id="contact-form" class="main-container"  method="post" action="https://formdump.codeinstitute.net/" target="_blank">
+                <div class="sub-container sub-container-header" id="contact-sub-container">
+                    <h2>Contact</h2>
+                    <label for="contact-firstname-id" class="contact-label">First name</label>
+                    <input type="text" name="contact-firstname" class="contact-input" id="contact-firstname-id"  pattern="[A-Z a-z]+" minlength="1" required>
+                    <label for="contact-lastname-id" class="contact-label">Last name</label>
+                    <input type="text" name="contact-lastname" class="contact-input" id="contact-lastname-id"   pattern="[A-Za-z]+" minlength="1" required>
+                    <label for="contact-phone-id" class="contact-label">Phone</label>
+                    <input type="tel" name="contact-phone" class="contact-input" id="contact-phone-id" pattern="[0-9]+" required>
+                    <label for="contact-email-id" class="contact-label">Email</label>
+                    <input type="email" name="contact-email" class="contact-input" id="contact-email-id" required>
+                    <label for="regarding-id" class="contact-label">Regarding</label>
+                    <select name="regarding" id="regarding-id" class="contact-input" placeholder="Please select an option" required>
+                        <option disabled selected value>Please select an option</option>
+                        <option value="wedding">Wedding</option>
+                        <option value="event">Event</option>
+                        <option value="Venue">Venue</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <label for="message-id" class="contact-label">Message</label>
+                    <textarea name="message" id="message-id" class="contact-input" placeholder="Optional message" cols="30" rows="10"></textarea>
+                    <input type="submit" name="contact-submit" id="contact-submit-button">
+                </div>
+            </form>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <!-- Div inserted to enable horizontal centering of footer content on screen with a margin all around edge  -->
+            <div class="footer">
+                <!-- Social media links -->
+                <!-- Socia media icons supplied by font awsome https://fontawesome.com/  -->
+                <a href="https://www.facebook.com/JoGeraghtyMusic/" class="social-media-anchor" target="_blank" rel="noopener" aria-label="Visit Joanne's Facebook page (opens in new tab)">
+                    <img src="assets/media/icons/footer-facebook-brands.svg"  class="social-media-icon" alt="Facebook social media icon">
+                </a>
+                <a href="https://www.instagram.com/joannegeraghtymusic/" class="social-media-anchor" target="_blank" rel="noopener" aria-label="Visit Joanne's Instagram page (opens in new tab)">
+                    <img src="assets/media/icons/footer-instagram-brands.svg" class="social-media-icon" alt="Instagram social media icon">
+                </a>
+                <a href="https://www.youtube.com/user/countryroads2009" class="social-media-anchor"  target="_blank" rel="noopener" aria-label="Visit Joanne's You Tube page (opens in new tab)">
+                    <img src="assets/media/icons/footer-square-youtube-brands.svg" class="social-media-icon" alt="You social media Tube icon">
                 </a>
             </div>
-            <!-- Semantic nav container and items inserted as ordered list to show order is important and should be maintained -->
-            <nav>
-                <ol id="menu">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="weddings.html">Weddings</a>    
-                    </li>
-                    <li>
-                        <a href="gallery.html">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="contact.html" class="active">Contact</a>
-                    </li>
-                </ol>    
-            </nav>
-        </div>
-    </header>
-    <main>
-        <!-- action and method properties left out as this is a dummy page and there is no back end server for post processing -->
-        <form id="contact-form" class="main-container"  method="post" action="https://formdump.codeinstitute.net/" target="_blank">
-            <div class="sub-container sub-container-header" id="contact-sub-container">
-                <h2>Contact</h2>
-                <label for="contact-firstname-id" class="contact-label">First name</label>
-                <input type="text" name="contact-firstname" class="contact-input" id="contact-firstname-id"  pattern="[A-Z a-z]+" minlength="1" required>
-                <label for="contact-lastname-id" class="contact-label">Last name</label>
-                <input type="text" name="contact-lastname" class="contact-input" id="contact-lastname-id"   pattern="[A-Za-z]+" minlength="1" required>
-                <label for="contact-phone-id" class="contact-label">Phone</label>
-                <input type="tel" name="contact-phone" class="contact-input" id="contact-phone-id" pattern="[0-9]+" required>
-                <label for="contact-email-id" class="contact-label">Email</label>
-                <input type="email" name="contact-email" class="contact-input" id="contact-email-id" required>
-                <label for="regarding-id" class="contact-label">Regarding</label>
-                <select name="regarding" id="regarding-id" class="contact-input" placeholder="Please select an option" required>
-                    <option disabled selected value>Please select an option</option>
-                    <option value="wedding">Wedding</option>
-                    <option value="event">Event</option>
-                    <option value="Venue">Venue</option>
-                    <option value="Other">Other</option>
-                </select>
-                <label for="message-id" class="contact-label">Message</label>
-                <textarea name="message" id="message-id" class="contact-input" placeholder="Optional message" cols="30" rows="10"></textarea>
-                <input type="submit" name="contact-submit" id="contact-submit-button">
-            </div>
-        </form>
-    </main>
-    <!-- Footer -->
-    <footer>
-        <!-- Div inserted to enable horizontal centering of footer content on screen with a margin all around edge  -->
-        <div class="footer">
-            <!-- Social media links -->
-            <!-- Socia media icons supplied by font awsome https://fontawesome.com/  -->
-            <a href="https://www.facebook.com/JoGeraghtyMusic/" class="social-media-anchor" target="_blank" rel="noopener" aria-label="Visit Joanne's Facebook page (opens in new tab)">
-                <img src="assets/media/icons/footer-facebook-brands.svg"  class="social-media-icon" alt="Facebook social media icon">
-            </a>
-            <a href="https://www.instagram.com/joannegeraghtymusic/" class="social-media-anchor" target="_blank" rel="noopener" aria-label="Visit Joanne's Instagram page (opens in new tab)">
-                <img src="assets/media/icons/footer-instagram-brands.svg" class="social-media-icon" alt="Instagram social media icon">
-            </a>
-            <a href="https://www.youtube.com/user/countryroads2009" class="social-media-anchor"  target="_blank" rel="noopener" aria-label="Visit Joanne's You Tube page (opens in new tab)">
-                <img src="assets/media/icons/footer-square-youtube-brands.svg" class="social-media-icon" alt="You social media Tube icon">
-            </a>
-        </div>
-    </footer>
-</body>
+        </footer>
+    </body>
 </html>
