@@ -5,3 +5,9 @@ The ‘Joanne Geraghty Music’ site provides a hub for Jo’s music business. I
 The overall objective is for the site to be an enjoyable destination for any user, for it to enable the user to make the most of Jos music and Jo, in turn, to gain and retain followers, increase bookings and sales and build a thriving fan base that attends her performances regularly. 
 
 ![Responsive Mockup](assets/readme/readme-responsive-mockup.jpg)
+
+## **Project Initiation**
+
+The features required for the project to be a success were derived from brainstorming sessions that helped to ascertain the business and user needs. Please find the results of these sessions via the link below:
+
+[Business opportunities and business and user needs](docs/readme-brainstorm.pdf)
