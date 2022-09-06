@@ -30,5 +30,20 @@ The overall objective is for the site to be an enjoyable destination for any use
 
     [Feature list](docs/readme-feature-list.pdf)
 
+## Project design
 
+Wire frames were developed for a site that incorporated all of the required features identified during project initiation to ensure all required functions were provided for.
 
+[Wireframes](docs/readme-wireframes.pdf)
+
+## **Features**
+
+- __Navigation Bar__
+
+    -The navigations bar
+
+## **Testing**
+
+    
+
+### **Deployment**
