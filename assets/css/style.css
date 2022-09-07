@@ -285,7 +285,7 @@ nav ol {
 }
 
 #newsletter-submit-button,
-#contact-submit-button {
+.contact-submit-button {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     padding: 0.3em;
@@ -300,13 +300,13 @@ nav ol {
     width: 7rem;
 }
 
-#contact-submit-button {
+.contact-submit-button {
     width: 9rem;
     height: 2rem;
 }
 
 #newsletter-submit-button:hover,
-#contact-submit-button:hover {
+.contact-submit-button:hover {
     border: 1px solid rgba(51, 102, 102, 1);
     background-color: rgb(133, 165, 165);
     box-shadow: 0px 0px 5px 1px rgb(33, 66, 66);
