@@ -271,6 +271,7 @@ nav ol {
 .newsletter-email-input {
     width: 15rem;
     color: rgb(0, 58, 58);
+    font-size: large;
 }
 
 .contact-label {
