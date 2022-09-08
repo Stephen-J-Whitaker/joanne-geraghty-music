@@ -132,7 +132,7 @@ nav ol {
     border-radius: 10px;
 }
 
-.main-container {
+.section-container {
     display: flex;
     justify-content: center;
     width: 100%;
