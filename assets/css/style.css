@@ -140,16 +140,15 @@ nav ol {
     margin-bottom: 3%;
 }
 
-.sub-container,
-.section-header {
-    width: 100%;
+.sub-container {
+    width: 80%;
     text-align: center;
     font-size: large;
     font-weight: 50;
     background-color: rgba(206, 224, 224, 0.7);
     backdrop-filter: blur(1px);
     border-radius: 10px;
-    padding: 10px;
+    padding: 3px;
 }
 
 .container-header {
@@ -162,14 +161,12 @@ nav ol {
     padding-bottom: 15px;
 }
 
-.sub-container-header h2,
-.section-header {
+.sub-container-header h2 {
     color: rgb(0, 58, 58);
     font-family: Great Vibes, sans-serif;
     font-size: 2rem;
     margin: 0;
-    padding: 10px;
-    font-weight: bold;
+    padding: 0;
 }
 
 .sub-container p {
@@ -354,12 +351,12 @@ footer {
 }
 
 /* wedding content styling */
-#wedding-gallery-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    column-gap: 10px;
-    row-gap: 10px;
+.wedding-gallery-container {	
+    display: flex;	
+    justify-content: center;	
+    flex-wrap: wrap;	
+    column-gap: 10px;	
+    row-gap: 10px;	
     width: 80%;
 }
 
@@ -382,7 +379,7 @@ footer {
 }
 
 /* gallery content styling */
-#gallery-section {
+.gallery-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
