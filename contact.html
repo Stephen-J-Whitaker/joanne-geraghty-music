@@ -44,34 +44,31 @@
             </div>
         </header>
         <main>
-            <!-- contact section -->
-            <section>
-                <!-- form post to code institue form dump as no back end server available -->
-                <form id="contact-form" class="section-container contact-form-container"  method="post" action="https://formdump.codeinstitute.net/" target="_blank">
-                    <div class="sub-container sub-container-header contact-sub-container">
-                        <h2>Contact</h2>
-                        <label for="contact-firstname-id" class="contact-label">First name</label>
-                        <input type="text" name="contact-firstname" class="contact-input" id="contact-firstname-id"  pattern="[A-Z a-z]+" minlength="1" required>
-                        <label for="contact-lastname-id" class="contact-label">Last name</label>
-                        <input type="text" name="contact-lastname" class="contact-input" id="contact-lastname-id"   pattern="[A-Za-z]+" minlength="1" required>
-                        <label for="contact-phone-id" class="contact-label">Phone</label>
-                        <input type="tel" name="contact-phone" class="contact-input" id="contact-phone-id" pattern="[0-9]+" required>
-                        <label for="contact-email-id" class="contact-label">Email</label>
-                        <input type="email" name="contact-email" class="contact-input" id="contact-email-id" placeholder="example@email.com" required>
-                        <label for="subject-id" class="contact-label subject-input">Subject</label>
-                        <select name="subject" id="subject-id" class="contact-input" required>
-                            <option disabled selected value>Please select an option</option>
-                            <option value="wedding">Wedding</option>
-                            <option value="event">Event</option>
-                            <option value="Venue">Venue</option>
-                            <option value="Other">Other</option>
-                        </select>
-                        <label for="message-id" class="contact-label">Message</label>
-                        <textarea name="message" id="message-id" class="contact-input message-input" placeholder="Optional message" cols="30" rows="10"></textarea>
-                        <button class="contact-submit-button" type="submit" name="contact-submit">Submit</button>
-                    </div>
-                </form>
-            </section>
+            <!-- form post to code institue form dump as no back end server available -->
+            <form id="contact-form" class="section-container contact-form-container"  method="post" action="https://formdump.codeinstitute.net/" target="_blank">
+                <div class="sub-container sub-container-header contact-sub-container">
+                    <h2>Contact</h2>
+                    <label for="contact-firstname-id" class="contact-label">First name</label>
+                    <input type="text" name="contact-firstname" class="contact-input" id="contact-firstname-id"  pattern="[A-Z a-z]+" minlength="1" required>
+                    <label for="contact-lastname-id" class="contact-label">Last name</label>
+                    <input type="text" name="contact-lastname" class="contact-input" id="contact-lastname-id"   pattern="[A-Za-z]+" minlength="1" required>
+                    <label for="contact-phone-id" class="contact-label">Phone</label>
+                    <input type="tel" name="contact-phone" class="contact-input" id="contact-phone-id" pattern="[0-9]+" required>
+                    <label for="contact-email-id" class="contact-label">Email</label>
+                    <input type="email" name="contact-email" class="contact-input" id="contact-email-id" placeholder="example@email.com" required>
+                    <label for="subject-id" class="contact-label subject-input">Subject</label>
+                    <select name="subject" id="subject-id" class="contact-input" required>
+                        <option disabled selected value>Please select an option</option>
+                        <option value="wedding">Wedding</option>
+                        <option value="event">Event</option>
+                        <option value="Venue">Venue</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <label for="message-id" class="contact-label">Message</label>
+                    <textarea name="message" id="message-id" class="contact-input message-input" placeholder="Optional message" cols="30" rows="10"></textarea>
+                    <button class="contact-submit-button" type="submit" name="contact-submit">Submit</button>
+                </div>
+            </form>
         </main>
         <!-- Footer -->
         <footer>
