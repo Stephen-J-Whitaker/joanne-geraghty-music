@@ -42,7 +42,7 @@ footer {
 }
 
 /* logo styling */
-#logo {
+.logo {
     display: flex;
     justify-content: center;
     background-color: rgba(170, 202, 202, 0.7);
@@ -53,12 +53,12 @@ footer {
     padding-right: 10px;
 }
 
-#logo h1,
-#logo h2 {
+.logo h1,
+.logo h2 {
     color: rgb(0, 58, 58);
 }
 
-#logo h1 {
+.logo h1 {
     font-family: Great Vibes, sans-serif;
     font-size: 4rem;
     margin-top: 20px;
@@ -66,17 +66,17 @@ footer {
     font-weight: bold;
 }
 
-#logo h2 {
+.logo h2 {
     margin-top: 0;
     font-weight: 100;
 }
 
-#logo:hover h1,
-#logo:hover h2 {
+.logo:hover h1,
+.logo:hover h2 {
     text-shadow: 0px 0px 20px rgba(51, 102, 102, 1);
 }
 
-#logo a {
+.logo a {
     text-decoration: none;
     text-align: center;
 }
@@ -473,16 +473,16 @@ label {
         justify-content: flex-end;
     }
 
-    #logo {
+    .logo {
         float: left;
         width: fit-content;
     }
 
-    #logo h1 {
+    .logo h1 {
         text-align: center;
     }
     
-    #logo h2 {
+    .logo h2 {
         text-align: center;
     }
 
