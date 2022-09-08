@@ -13,31 +13,34 @@
     <body class="wedding-body">
         <!-- Header -->
         <header>
-            <!-- Div inserted to enable horizontal centering of header content on screen with a margin all around edge  -->
-            <div class="header">
-                <div class="logo">
-                    <a href="index.html" aria-label="Joanne Geraghty logo (links to The main website page)">
-                        <h1>Joanne Geraghty Music</h1>
-                        <h2>Music for all occasions</h2>
-                    </a>
+            <!-- div added to enable correct rendering on older mobile devices -->
+            <div class="header-container">
+                <!-- Div inserted to enable horizontal centering of header content on screen with a margin all around edge  -->
+                <div class="header">
+                    <div class="logo">
+                        <a href="index.html" aria-label="Joanne Geraghty logo (links to The main website page)">
+                            <h1>Joanne Geraghty Music</h1>
+                            <h2>Music for all occasions</h2>
+                        </a>
+                    </div>
+                    <!-- Semantic nav container and items inserted as ordered list to show order is important and should be maintained -->
+                    <nav>
+                        <ol class="menu">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="weddings.html" class="active">Weddings</a>    
+                            </li>
+                            <li>
+                                <a href="gallery.html">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ol>    
+                    </nav>
                 </div>
-                <!-- Semantic nav container and items inserted as ordered list to show order is important and should be maintained -->
-                <nav>
-                    <ol class="menu">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="weddings.html" class="active">Weddings</a>    
-                        </li>
-                        <li>
-                            <a href="gallery.html">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-                    </ol>    
-                </nav>
             </div>
         </header>
         <main>
@@ -48,7 +51,7 @@
                     <p>
                         I understand how important it is for you to be able to focus on enjoying one of the most special occasions of your life and I will make sure that creating the perfect
                         ambiance for your day or providing the musical entertainment for your celebrations are taken care of with all the attention and care that you would expect. 
-                        For you peace of mind references are available on request. Please don't hesitate to <a href="contact.html" aria-label="link to contact form" class="in-text-link">contact me</a> to discuss your bespoke solution.  
+                        For your peace of mind references are available on request. Please don't hesitate to <a href="contact.html" aria-label="link to contact form" class="in-text-link">contact me</a> to discuss your bespoke solution.  
                     </p>
                 </div>
             </section>
@@ -68,20 +71,23 @@
         </main>
         <!-- Footer -->
         <footer>
-            <!-- Div inserted to enable horizontal centering of footer content on screen with a margin all around edge  -->
-            <div class="footer">
-                <!-- Social media links -->
-                <!-- Socia media icons supplied by font awsome https://fontawesome.com/  -->
-                <a href="https://www.facebook.com/JoGeraghtyMusic/" class="social-media-anchor" target="_blank" rel="noopener" aria-label="Visit Joanne's Facebook page (opens in new tab)">
-                    <img src="assets/media/icons/footer-facebook-brands.svg"  class="social-media-icon" alt="Facebook social media icon">
-                </a>
-                <a href="https://www.instagram.com/joannegeraghtymusic/" class="social-media-anchor" target="_blank" rel="noopener" aria-label="Visit Joanne's Instagram page (opens in new tab)">
-                    <img src="assets/media/icons/footer-instagram-brands.svg" class="social-media-icon" alt="Instagram social media icon">
-                </a>
-                <a href="https://www.youtube.com/user/countryroads2009" class="social-media-anchor"  target="_blank" rel="noopener" aria-label="Visit Joanne's You Tube page (opens in new tab)">
-                    <img src="assets/media/icons/footer-square-youtube-brands.svg" class="social-media-icon" alt="You social media Tube icon">
-                </a>
-            </div>
+            <!-- div added to enable correct rendering on older mobile devices -->
+            <div class="footer-container">
+                <!-- Div inserted to enable horizontal centering of footer content on screen with a margin all around edge  -->
+                <div class="footer">
+                    <!-- Social media links -->
+                    <!-- Socia media icons supplied by font awsome https://fontawesome.com/  -->
+                    <a href="https://www.facebook.com/JoGeraghtyMusic/" class="social-media-anchor" target="_blank" rel="noopener" aria-label="Visit Joanne's Facebook page (opens in new tab)">
+                        <img src="assets/media/icons/footer-facebook-brands.svg"  class="social-media-icon" alt="Facebook social media icon">
+                    </a>
+                    <a href="https://www.instagram.com/joannegeraghtymusic/" class="social-media-anchor" target="_blank" rel="noopener" aria-label="Visit Joanne's Instagram page (opens in new tab)">
+                        <img src="assets/media/icons/footer-instagram-brands.svg" class="social-media-icon" alt="Instagram social media icon">
+                    </a>
+                    <a href="https://www.youtube.com/user/countryroads2009" class="social-media-anchor"  target="_blank" rel="noopener" aria-label="Visit Joanne's You Tube page (opens in new tab)">
+                        <img src="assets/media/icons/footer-square-youtube-brands.svg" class="social-media-icon" alt="You social media Tube icon">
+                    </a>
+                </div>
+            </div>    
         </footer>
     </body>
 </html>
