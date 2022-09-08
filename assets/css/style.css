@@ -284,7 +284,7 @@ nav ol {
     box-shadow: 0px 0px 5px 1px rgb(33, 66, 66);
 }
 
-#newsletter-submit-button,
+.newsletter-submit-button,
 .contact-submit-button {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
@@ -305,14 +305,14 @@ nav ol {
     height: 2rem;
 }
 
-#newsletter-submit-button:hover,
+.newsletter-submit-button:hover,
 .contact-submit-button:hover {
     border: 1px solid rgba(51, 102, 102, 1);
     background-color: rgb(133, 165, 165);
     box-shadow: 0px 0px 5px 1px rgb(33, 66, 66);
 }
 
-#contact-sub-container {
+.contact-sub-container {
     width: auto;
 }
 
