@@ -39,7 +39,6 @@ footer {
     border-radius: 10px;
     margin: 3%;
     box-shadow: 0px 0px 20px 1px rgba(51, 102, 102, 0.4);
-    backdrop-filter: blur(7px);
 }
 
 /* logo styling */
@@ -63,12 +62,13 @@ footer {
     font-family: Great Vibes, sans-serif;
     font-size: 4rem;
     margin-top: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 0;
     font-weight: bold;
 }
 
 #logo h2 {
     margin-top: 0;
+    font-weight: 100;
 }
 
 #logo:hover h1,
@@ -360,13 +360,14 @@ footer {
     width: 80%;
 }
 
-.wedding-gallery-item {
+.wedding-gallery-item,
+.gallery-item {
     max-width: 250px;
     max-height: 250px;
     background-color: rgba(206, 224, 224, 0.7);
     backdrop-filter: blur(1px);
     border-radius: 10px;
-    padding: 30px;
+    padding: 10px;
 }
 
 .wedding-gallery {
@@ -386,15 +387,6 @@ footer {
     column-gap: 10px;
     row-gap: 10px;
     width: 80%;
-}
-
-.gallery-item {
-    max-width: 250px;
-    max-height: 250px;
-    background-color: rgba(206, 224, 224, 0.7);
-    backdrop-filter: blur(1px);
-    border-radius: 10px;
-    padding: 10px;
 }
 
 .gallery {
