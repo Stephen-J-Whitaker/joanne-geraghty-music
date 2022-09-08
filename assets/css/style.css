@@ -99,12 +99,12 @@ nav ol {
     padding: 1%;
 }
 
-#menu li {
+.menu li {
     display: flex;
     list-style-type: none;
 }
 
-#menu li a {
+.menu li a {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     padding: 0.3em;
@@ -119,13 +119,13 @@ nav ol {
     width: 7rem;
 }
 
-#menu li a:hover {
+.menu li a:hover {
     border: 1px solid rgba(51, 102, 102, 1);
     background-color: rgb(133, 165, 165);
     box-shadow: 0px 0px 5px 1px rgb(33, 66, 66);
 }
 
-#menu .active {
+.menu .active {
     border: 1px solid rgba(51, 102, 102, 1);
     background-color: rgb(133, 165, 165);
     box-shadow: 0px 0px 5px 1px rgb(33, 66, 66);
