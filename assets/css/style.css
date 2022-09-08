@@ -253,7 +253,7 @@ nav ol {
 }
 
 /* newsletter and contact section styling */
-#newsletter-email-id,
+.newsletter-email-input,
 .contact-input {
     margin-right: 1%;
     border-radius: 10px;
@@ -264,7 +264,7 @@ nav ol {
     outline: none;
 }
 
-#newsletter-email-id {
+.newsletter-email-input {
     width: 15rem;
 }
 
@@ -276,8 +276,8 @@ nav ol {
     margin-bottom: 1rem;
 }
 
-#newsletter-email-id:hover,
-#newsletter-email-id:focus,
+.newsletter-email-input:hover,
+.newsletter-email-input:focus,
 .contact-input:hover,
 .contact-input:focus {
     border: 1px solid rgba(51, 102, 102, 1);
