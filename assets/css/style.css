@@ -1,5 +1,5 @@
 /* Import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato&display=swap');
 
 html,
 body {
@@ -63,7 +63,7 @@ body {
 }
 
 .logo h1 {
-    font-family: Great Vibes, sans-serif;
+    font-family: Great Vibes, cursive;
     font-size: 4rem;
     margin-top: 20px;
     margin-bottom: 0;
@@ -109,7 +109,7 @@ nav ol {
 }
 
 .menu li a {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Lato, Helvetica, sans-serif;
     text-transform: uppercase;
     padding: 0.3em;
     border: 1px solid rgba(51, 102, 102, 0.4);
@@ -183,14 +183,14 @@ nav ol {
 
 .sub-container-header h2 {
     color: rgb(0, 58, 58);
-    font-family: Great Vibes, sans-serif;
+    font-family: Great Vibes, cursive;
     font-size: 2rem;
     margin: 0;
     padding: 0;
 }
 
 .sub-container p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Lato, Helvetica, sans-serif;
     max-width: 700px;
     color: rgb(0 32 32);
 }
@@ -241,7 +241,7 @@ nav ol {
     background-color: rgba(206, 224, 224, 0.7);
     backdrop-filter: blur(1px);
     border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Lato, Helvetica, sans-serif;
     padding: 1rem;
 }
 
@@ -308,7 +308,7 @@ nav ol {
 
 .newsletter-submit-button,
 .contact-submit-button {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Lato, Helvetica, sans-serif;
     text-transform: uppercase;
     padding: 0.3em;
     border: 1px solid rgba(51, 102, 102, 0.4);
@@ -424,7 +424,7 @@ footer {
 label {
     color: rgb(0, 58, 58);
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Lato, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -443,7 +443,7 @@ label {
 }
 .contact-input {
     font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Lato, Helvetica, sans-serif;
     margin-right: 0;
     color: rgb(0, 58, 58);
 }
