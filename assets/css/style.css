@@ -192,7 +192,7 @@ nav ol {
 .sub-container p {
     font-family: Arial, Lato, Helvetica, sans-serif;
     max-width: 700px;
-    color: rgb(0 32 32);
+    color: rgb(0, 58, 58);
 }
 
 .sub-container {
@@ -253,7 +253,7 @@ nav ol {
 }
 
 .gigs span {
-    color: rgb(0 32 32);
+    color: rgb(0, 58, 58);
 }
 
 .gig-venue {
