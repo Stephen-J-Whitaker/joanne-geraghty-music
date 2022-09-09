@@ -72,7 +72,7 @@ body {
 
 .logo h2 {
     margin-top: 0;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .logo:hover h1,
@@ -164,7 +164,7 @@ nav ol {
     width: 80%;
     text-align: center;
     font-size: large;
-    font-weight: 200;
+    font-weight: 150;
     background-color: rgba(206, 224, 224, 0.7);
     backdrop-filter: blur(1px);
     border-radius: 10px;
@@ -237,7 +237,7 @@ nav ol {
     height: 142px;
     box-sizing: border-box;
     text-align: center;
-    font-weight: 200;
+    font-weight: 150;
     background-color: rgba(206, 224, 224, 0.7);
     backdrop-filter: blur(1px);
     border-radius: 10px;
@@ -515,5 +515,9 @@ label {
 
     .contact-sub-container {
         width: 40%;
+    }
+
+    .newsletter-email-input {
+        width: 25rem;
     }
 }
