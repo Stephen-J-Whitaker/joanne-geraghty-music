@@ -8,7 +8,9 @@ The overall objective is for the site to be an enjoyable destination for any use
 
 ## **Contents**
 
-## **Project Initiation**
+1 [Project Initiation](#project-initiation)
+
+## **1. Project Initiation**
 
 1. Brainstorming sessions helped to ascertain the business and user needs:
 
@@ -70,7 +72,7 @@ Wire frames were developed for a site that incorporated all of the required feat
 
 - Lighthouse tests in dev tools in Chrome were used to verify that that website performed as required.
 
-![Lighthouse results]()
+![Lighthouse results](assets/readme/lighthouse-results.jpg)
 
 
 ### **Compatibility tests**
