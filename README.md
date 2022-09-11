@@ -6,6 +6,8 @@ The overall objective is for the site to be an enjoyable destination for any use
 
 ![Responsive Mockup](assets/readme/readme-responsive-mockup.jpg)
 
+## **Contents**
+
 ## **Project Initiation**
 
 1. Brainstorming sessions helped to ascertain the business and user needs:
@@ -30,38 +32,57 @@ The overall objective is for the site to be an enjoyable destination for any use
 
     [Feature list](docs/readme-feature-list.pdf)
 
-## **Project Development
+## **Project Development**
 
 Wire frames were developed for a site that incorporated all of the required features identified during project initiation to ensure all required functions were provided for.
 
-[Landing page wireframes](docs/wireframes-landing-page.pdf)
+- [Landing page wireframes](docs/wireframes-landing-page.pdf)
 
-[Weddings page wireframes](docs/wireframes-weddings-page.pdf)
+- [Weddings page wireframes](docs/wireframes-weddings-page.pdf)
 
-[Gallery page wireframes](docs/wireframes-gallery-page.pdf)
+- [Gallery page wireframes](docs/wireframes-gallery-page.pdf)
 
-[Contact Form page wireframes](docs/wireframes-contact-form-page.pdf)
+- [Contact Form page wireframes](docs/wireframes-contact-form-page.pdf)
 
-[Mockup colour with scheme](docs/mockup-colour-scheme.pdf)
+- [Mockup with colour scheme](docs/mockup-colour-scheme.pdf)
 
-[User interface flow](docs/user-interface-flow.pdf)
+- [User interface flow](docs/user-interface-flow.pdf)
 
 ## **Features**
 
 ### **Implemented Features**
 
-- __Navigation Bar__
+- **Logo**
 
-    -The navigations bar
+    The Logo
+
+- **Navigation Bar**
+
+    The navigations Bar
 
 ### **Features Left to Implement**
 
 ## **Testing**
 
+### **Functionality tests**
+
+### **Performance tests**
+
+- Lighthouse tests in dev tools in Chrome were used to verify that that website performed as required.
+
+![Lighthouse results]()
+
+
+### **Compatibility tests**
+
+Bugs found and fixed or outstanding
+
 ## **Deployment**
 
-## **Credits
+## **Technologies Used**
 
-### **Content
+## **Credits**
 
-### **Media
+### **Content**
+
+### **Media**
