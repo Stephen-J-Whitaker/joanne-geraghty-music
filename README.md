@@ -38,7 +38,13 @@ Wire frames were developed for a site that incorporated all of the required feat
 
 [Weddings page wireframes](docs/wireframes-weddings-page.pdf)
 
-[Weddings page wireframes](docs/wireframes-weddings-page.pdf)
+[Gallery page wireframes](docs/wireframes-gallery-page.pdf)
+
+[Contact Form page wireframes](docs/wireframes-contact-form-page.pdf)
+
+[Mockup colour with scheme](docs/mockup-colour-scheme.pdf)
+
+[User interface flow](docs/user-interface-flow.pdf)
 
 ## **Features**
 
