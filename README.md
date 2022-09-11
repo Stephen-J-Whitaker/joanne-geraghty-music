@@ -36,6 +36,10 @@ Wire frames were developed for a site that incorporated all of the required feat
 
 [Landing page wireframes](docs/wireframes-landing-page.pdf)
 
+[Weddings page wireframes](docs/wireframes-weddings-page.pdf)
+
+[Weddings page wireframes](docs/wireframes-weddings-page.pdf)
+
 ## **Features**
 
 ### **Implemented Features**
