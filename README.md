@@ -34,25 +34,38 @@ The overall objective is for the site to be an enjoyable destination for any use
 
     [Feature list](docs/readme-feature-list.pdf)
 
-## **Project Development**
+## **Product Development**
 
-Wire frames were developed for a site that incorporated all of the required features identified during project initiation to ensure all required functions were provided for.
+### **Poduct Functionailty development**
+- Wireframes were developed for a site that incorporated all of the required features identified during project initiation to ensure all required functions were provided for.
 
-- [Landing page wireframes](docs/wireframes-landing-page.pdf)
+  - [Landing page wireframes](docs/wireframes-landing-page.pdf)
 
-- [Weddings page wireframes](docs/wireframes-weddings-page.pdf)
+  - [Weddings page wireframes](docs/wireframes-weddings-page.pdf)
 
-- [Gallery page wireframes](docs/wireframes-gallery-page.pdf)
+  - [Gallery page wireframes](docs/wireframes-gallery-page.pdf)
 
-- [Contact Form page wireframes](docs/wireframes-contact-form-page.pdf)
+  - [Contact form page wireframes](docs/wireframes-contact-form-page.pdf)
 
-- [Mockup with colour scheme](docs/mockup-colour-scheme.pdf)
+  - [User interface flow](docs/user-interface-flow.pdf)
 
-- [User interface flow](docs/user-interface-flow.pdf)
+  - [Mockup with colour scheme](docs/mockup-colour-scheme.pdf)
+
+### **Product Style Development**
+
+- Typography
+
+- Colour scheme
+
+- Images
+
+- Layout
 
 ## **Features**
 
-### **Implemented Features**
+### **Style and Feedback Features**
+
+### **Implemented Functional Features**
 
 - **Logo**
 
@@ -83,8 +96,72 @@ Bugs found and fixed or outstanding
 
 ## **Technologies Used**
 
+- CSS
+
+- HTML
+
+- [Corel Draw](https://www.coreldraw.com/en/) : Used for developing the wireframes and mockups for the product
+
+- [Corel Photo-Paint](https://www.coreldraw.com/en/pages/photo-paint/) : Used for cropping and adjusting the photos used in the product
+
+- [VLC](https://www.videolan.org/) : Used for transcoding video
+
+- IOS Photos App : Used to crop videos to square aspect ratio
+
+- [Microsoft Excel](https://www.microsoft.com/en-ie/microsoft-365/excel) : Used for documenting features and recording test results
+
+- [Chrome](https://www.google.com/intl/en_ie/chrome/) : USed for research, development and testing (including DevTools and Lighthouse test suite)
+
+- [Safari](https://www.apple.com/safari/) : Used for testing
+
+- [Opera](https://www.opera.com/) : Used for testing
+
+- [Edge](https://www.microsoft.com/en-us/edge) : Used for testing
+
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/) : Used for testing
+
+- [Notepad++](https://notepad-plus-plus.org/downloads/) : Used for text file editing
+
+- [Gitpod](https://www.gitpod.io/) : Used for product development and testing
+
+- [Github](https://github.com/) : Used for accessing committed code repositories and hosting the completed product online
+
+- [Git](https://git-scm.com/): Used for code version control
+
+- [Tinyjpg](https://tinyjpg.com/) : Used for image compression
+
+- [Google Fonts](https://fonts.google.com/about) : Used for fonts
+
+- [Font Awsome](https://fontawesome.com/) : Used to source social media svg files
+
+- Code Institute form Dump : Form data is sent to this form dump in lieu opf implemention of a custom back end process to handle the incomming form posts 
+
 ## **Credits**
 
 ### **Content**
 
+- All code was written by the author, Stephen Whitaker
+
+- The fonts "Great Vibes" and Lato were sourced on [Google Fonts](https://fonts.google.com/about)
+
 ### **Media**
+
+- All photos and videos belong to the author and his wife, Stephen Whitaker and Joanne Whitaker
+
+### **External Dependencies**
+
+- Conde Institute from dump : Form posts are currently sent to the Code Institue form dump in lieu of a custom back end process to handle the form posts correctly. Implention of such processes was beyound the scope of this project.
+
+### **Other sources**
+
+- Guidance on the markdown and structure to produce the readme was obtained from :
+
+   - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
+
+   - []()
+
+### **Acknowledgements**
+
+- A special thank you to my mentor Maranatha Ilesanmi
+
+- Thank you to all those who were kind enough to test and provide feedback on the product
