@@ -112,6 +112,9 @@ A simple and consistent full page scroll with a header and 'sticky' footer was c
   - Embedded audio in videos was not supported by IOS so transcoded with [VLC](https://www.videolan.org/) to contain AAC audio
 
   - Text was unreadable on Android phones on the semi-transparent backgrounds as Arial was not installed on the Android phones tested with and the browser fell back to the Android default sans serif font which was extremely thin. Google fonts Lato was added as a fallback for Arial and this resolved the issue.
+  
+- Outstanding
+  - Selector drop down box on contact form page is not styled correctly on IOS Apple Iphone
 
 ## **Deployment**
 
@@ -159,7 +162,7 @@ The website is hosted by [GitHub Pages](https://pages.github.com/) from the main
 
 - [Font Awsome](https://fontawesome.com/) : Used to source social media svg files
 
-- Code Institute form Dump : Form data is sent to this form dump in lieu opf implemention of a custom back end process to handle the incomming form posts
+- Code Institute form dump : Form data is sent to this form dump in lieu opf implemention of a custom back end process to handle the incomming form posts
 
 - [The W3C Markup Validation Service](https://validator.w3.org/#validate_by_uri) : Used to validate the website HTML
 
