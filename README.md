@@ -81,18 +81,31 @@ The overall objective is for the site to be an enjoyable destination for any use
 
 ### **Functionality tests**
 
+### **Code Validation**
+
+- The website HTML was validated using [The W3C Markup Validation Service](https://validator.w3.org/#validate_by_uri)
+
+![W3C HTML validator results](assets/readme/test-results/html-validator-results.jpg)
+
+- The website CSS was validated using [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
+
+![W3C CSS validator results](assets/readme/test-results/w3c-validator-results.jpg)
+
 ### **Performance tests**
 
 - Lighthouse tests in dev tools in Chrome were used to verify that that website performed as required.
 
-![Lighthouse results](assets/readme/lighthouse-results.jpg)
-
+![Lighthouse results](assets/readme/test-results/lighthouse-results.jpg)
 
 ### **Compatibility tests**
 
 Bugs found and fixed or outstanding
 
 ## **Deployment**
+
+The website is hosted by [Github Pages](https://pages.github.com/) from the main branch of the [joanne-geraghty-music Git repository](https://github.com/Stephen-J-Whitaker/joanne-geraghty-music). The deployment procedure is as follows:
+
+ - 
 
 ## **Technologies Used**
 
@@ -134,7 +147,11 @@ Bugs found and fixed or outstanding
 
 - [Font Awsome](https://fontawesome.com/) : Used to source social media svg files
 
-- Code Institute form Dump : Form data is sent to this form dump in lieu opf implemention of a custom back end process to handle the incomming form posts 
+- Code Institute form Dump : Form data is sent to this form dump in lieu opf implemention of a custom back end process to handle the incomming form posts
+
+- [The W3C Markup Validation Service](https://validator.w3.org/#validate_by_uri) : Used to validate the website HTML
+
+- [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/) : Used to validate the website CSS
 
 ## **Credits**
 
