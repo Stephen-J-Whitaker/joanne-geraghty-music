@@ -34,7 +34,7 @@ The overall objective is for the site to be an enjoyable destination for any use
 
     [Feature list](docs/readme-feature-list.pdf)
 
-## **Product Development**
+## **2. Product Development**
 
 ### **Poduct Functionailty development**
 - Wireframes were developed for a site that incorporated all of the required features identified during project initiation to ensure all required functions were provided for.
@@ -55,11 +55,19 @@ The overall objective is for the site to be an enjoyable destination for any use
 
 - Typography
 
-- Colour scheme
+It was decided to use one cursive font and one sans serif font throughout the site. The cursive font Great Vibes ([Google Fonts](https://fonts.google.com/about)) is used for the logo and the headings on all the web pages and the sans serif font Arial is used for all other text. The use of the same 2 preffered fonts on all pages provides continuity and is intended to help the pages look unclutttered and make the site a more pleasant place to be for it's users.
+
+- Colour Scheme
+
+The mint green colour scheme and small pallete used for the user interface was chosen to make the site appear 'fresh' and 'light' and so help to envoke positive emotions in the user. The semi-transparency of the interface is to add to the sense 'lightness' and to provide a sense of depth to the site. The colours are used consistently throughout the site with the headers and footers being one tone of mint green and the main body of the pages being a lighter tone of mint green. All other colour is provided by the background images and, where present, gallery pictures and videos. A mix of black and white and colour videos and photos was chosen and arranged to provide balance to the pages in which they are present without introducing clashing or overly vibrant colours that would work against the use of a mint theme used to convey a sense of calm.  
 
 - Images
 
+The full viewport background images with the semi transparent user interface was chosen to give an ethereal 'lightness' and depth to the site. All the images and videos used in the galleries are cropped to a square aspect ratio and same size for consistency and therefore to help produce a positive emotional response in the user.  
+
 - Layout
+
+A simple and consistent full page scroll with a header and 'sticky' footer was chosen as it is familiar with internet users and will be intuitive to navigate. The layout is fully responsive and, for consistency, all the features look the same on all screen sizes (although some, like the navigation bar, are arranged differently and wrap under other objects for smaller screen sizes).
 
 ## **Features**
 
@@ -97,8 +105,6 @@ The overall objective is for the site to be an enjoyable destination for any use
 
 ![Lighthouse results](assets/readme/test-results/lighthouse-results.jpg)
 
-### **Compatibility tests**
-
 ### **Bugs found and resolved or outstanding**
 - Resolved
   - H265 mpeg video was not supported by some browsers so transcoded with [VLC](https://www.videolan.org/) to H264
@@ -111,7 +117,7 @@ The overall objective is for the site to be an enjoyable destination for any use
 
 The website is hosted by [GitHub Pages](https://pages.github.com/) from the main branch of the [joanne-geraghty-music Git repository](https://github.com/Stephen-J-Whitaker/joanne-geraghty-music). The deployment procedure can be found at the following link:
 
-[Deployment Procedure](docs/readme-deployment-procedure.pdf)
+- [Deployment Procedure](docs/readme-deployment-procedure.pdf)
 
 ## **Technologies Used**
 
@@ -169,11 +175,11 @@ The website is hosted by [GitHub Pages](https://pages.github.com/) from the main
 
 ### **Media**
 
-- All photos and videos are those of author (Stephen Whitaker) and his wife (Joanne Whitaker)
+- All photos and videos used are those of author (Stephen Whitaker) and his wife (Joanne Whitaker)
 
 ### **External Dependencies**
 
-- Code Institute from dump : Form posts are currently sent to the Code Institue form dump in lieu of a custom back end process to handle the form posts correctly. Implention of such processes was beyound the scope of this project.
+- Code Institute form dump : Form posts are currently sent to the Code Institue form dump in lieu of a custom back end process to handle the form posts correctly. Implention of such processes was beyound the scope of this project.
 
 ### **Other sources**
 
