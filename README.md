@@ -85,11 +85,11 @@ The overall objective is for the site to be an enjoyable destination for any use
 
 - The website HTML was validated using [The W3C Markup Validation Service](https://validator.w3.org/#validate_by_uri)
 
-![W3C HTML validator results](assets/readme/test-results/html-validator-results.jpg)
+![W3C HTML validator results](assets/readme/test-results/w3c-html-validator-results.jpg)
 
 - The website CSS was validated using [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
 
-![W3C CSS validator results](assets/readme/test-results/w3c-validator-results.jpg)
+![W3C CSS validator results](assets/readme/test-results/w3c-css-validator-results.jpg)
 
 ### **Performance tests**
 
