@@ -146,7 +146,7 @@ Bugs found and fixed or outstanding
 
 ### **Media**
 
-- All photos and videos belong to the author and his wife, Stephen Whitaker and Joanne Whitaker
+- All photos and videos are those of author (Stephen Whitaker) and his wife (Joanne Whitaker)
 
 ### **External Dependencies**
 
@@ -158,7 +158,7 @@ Bugs found and fixed or outstanding
 
    - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
 
-   - []()
+   - [Markdown for readme](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ### **Acknowledgements**
 
