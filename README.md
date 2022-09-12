@@ -39,17 +39,17 @@ The overall objective is for the site to be an enjoyable destination for any use
 ### **Poduct Functionailty development**
 - Wireframes were developed for a site that incorporated all of the required features identified during project initiation to ensure all required functions were provided for.
 
-  - [Landing page wireframes](docs/wireframes-landing-page.pdf)
+  - [Landing page wireframes](docs/readme-wireframes-landing-page.pdf)
 
-  - [Weddings page wireframes](docs/wireframes-weddings-page.pdf)
+  - [Weddings page wireframes](docs/readme-wireframes-weddings-page.pdf)
 
-  - [Gallery page wireframes](docs/wireframes-gallery-page.pdf)
+  - [Gallery page wireframes](docs/readme-wireframes-gallery-page.pdf)
 
-  - [Contact form page wireframes](docs/wireframes-contact-form-page.pdf)
+  - [Contact form page wireframes](docs/readme-wireframes-contact-form-page.pdf)
 
-  - [User interface flow](docs/user-interface-flow.pdf)
+  - [User interface flow](docs/readme-user-interface-flow.pdf)
 
-  - [Mockup with colour scheme](docs/mockup-colour-scheme.pdf)
+  - [Mockup with colour scheme](docs/readme-mockup-colour-scheme.pdf)
 
 ### **Product Style Development**
 
@@ -99,13 +99,19 @@ The overall objective is for the site to be an enjoyable destination for any use
 
 ### **Compatibility tests**
 
-Bugs found and fixed or outstanding
+### **Bugs found and resolved or outstanding**
+- Resolved
+  - H265 mpeg video was not supported by some browsers so transcoded with [VLC](https://www.videolan.org/) to H264
+
+  - Embedded audio in videos was not supported by IOS so transcoded with [VLC](https://www.videolan.org/) to contain AAC audio
+
+  - Text was unreadable on Android phones on the semi-transparent backgrounds as Arial was not installed on the Android phones tested with and the browser fell back to the Android default sans serif font which was extremely thin. Google fonts Lato was added as a fallback for Arial and this resolved the issue.
 
 ## **Deployment**
 
-The website is hosted by [Github Pages](https://pages.github.com/) from the main branch of the [joanne-geraghty-music Git repository](https://github.com/Stephen-J-Whitaker/joanne-geraghty-music). The deployment procedure is as follows:
+The website is hosted by [GitHub Pages](https://pages.github.com/) from the main branch of the [joanne-geraghty-music Git repository](https://github.com/Stephen-J-Whitaker/joanne-geraghty-music). The deployment procedure can be found at the following link:
 
- - 
+[Deployment Procedure](docs/readme-deployment-procedure.pdf)
 
 ## **Technologies Used**
 
@@ -135,9 +141,9 @@ The website is hosted by [Github Pages](https://pages.github.com/) from the main
 
 - [Notepad++](https://notepad-plus-plus.org/downloads/) : Used for text file editing
 
-- [Gitpod](https://www.gitpod.io/) : Used for product development and testing
+- [GitPod](https://www.gitpod.io/) : Used for product development and testing
 
-- [Github](https://github.com/) : Used for accessing committed code repositories and hosting the completed product online
+- [GitHub](https://github.com/) : Used for accessing committed code repositories and hosting the completed product online
 
 - [Git](https://git-scm.com/): Used for code version control
 
@@ -167,7 +173,7 @@ The website is hosted by [Github Pages](https://pages.github.com/) from the main
 
 ### **External Dependencies**
 
-- Conde Institute from dump : Form posts are currently sent to the Code Institue form dump in lieu of a custom back end process to handle the form posts correctly. Implention of such processes was beyound the scope of this project.
+- Code Institute from dump : Form posts are currently sent to the Code Institue form dump in lieu of a custom back end process to handle the form posts correctly. Implention of such processes was beyound the scope of this project.
 
 ### **Other sources**
 
