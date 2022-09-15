@@ -51,28 +51,29 @@ Wireframes were developed for a site that incorporated all of the required featu
   - [Mockup with colour scheme](docs/readme-mockup-colour-scheme.pdf)
 
 ### **Product Style Development**
-### Typography
+- ### Typography
   It was decided to use one cursive font and one sans serif font throughout the site. The cursive font Great Vibes ([Google Fonts](https://fonts.google.com/about)) is used for the logo and the headings on all the web pages and the sans serif font Arial is used for all other text. The use of the same 2 preffered fonts on all pages provides continuity and is intended to help the pages look unclutttered and make the site a more pleasant place to be for it's users.
 
-### Colour Scheme
-The mint green colour scheme and small pallete used for the user interface was chosen to make the site appear 'fresh' and 'light' and so help to envoke positive emotions in the user. The semi-transparency of the interface is to add to the sense 'lightness' and to provide a sense of depth to the site. The colours are used consistently throughout the site with the headers and footers being one tone of mint green and the main body of the pages being a lighter tone of mint green. All other colour is provided by the background images and, where present, gallery pictures and videos. A mix of grey scale and colour videos and photos was chosen and arranged to provide balance to the pages in which they are present without introducing clashing or overly vibrant colours that would work against the use of a mint theme used to convey a sense of calm.  
+- ### Colour Scheme
+  The mint green colour scheme and small pallete used for the user interface was chosen to make the site appear 'fresh' and 'light' and so help to envoke positive emotions in the user. The semi-transparency of the interface is to add to the sense 'lightness' and to provide a sense of depth to the site. The colours are used consistently throughout the site with the headers and footers being one tone of mint green and the main body of the pages being a lighter tone of mint green. All other colour is provided by the background images and, where present, gallery pictures and videos. A mix of grey scale and colour videos and photos was chosen and arranged to provide balance to the pages in which they are present without introducing clashing or overly vibrant colours that would work against the use of a mint theme used to convey a sense of calm.  
 
-### Images
-The full viewport background images with the semi transparent user interface was chosen to give an ethereal 'lightness' and depth to the site. All the images and videos used in the galleries are cropped to a square aspect ratio and same size for consistency and therefore to help produce a positive emotional response in the user.  
+- ### Images
+  The full viewport background images with the semi transparent user interface was chosen to give an ethereal 'lightness' and depth to the site. All the images and videos used in the galleries are cropped to a square aspect ratio and same size for consistency and therefore to help produce a positive emotional response in the user.  
 
-### Layout
-A simple and consistent full page scroll with a header and 'sticky' footer was chosen as it is familiar with internet users and will be intuitive to navigate. The layout is fully responsive and, for consistency, all the features look the same on all screen sizes (although some, like the navigation bar, are arranged differently and wrap under other objects for smaller screen sizes). The header and footer is the same on all pages. With the exception of the weddings page the background image is the same on all pages for consistency. The wedding page has a wedding themed background image as deayiled in teh features specification.
+- ### Layout
+  A simple and consistent full page scroll with a header and 'sticky' footer was chosen as it is familiar with internet users and will be intuitive to navigate. The layout is fully responsive and, for consistency, all the features look the same on all screen sizes (although some, like the navigation bar, are arranged differently and wrap under other objects for smaller screen sizes). The header and footer is the same on all pages. With the exception of the weddings page the background image is the same on all pages for consistency. The wedding page has a wedding themed background image as deayiled in teh features specification.
 
-### User Feedback
-Any clickable or interactive feature or link will have a style change in response to an on hover event to identify the feature as interactive to the user. The change in style on occurence of a hover event is detailed in the features section.
+- ### User Feedback
+  Any clickable or interactive feature or link will have a style change in response to an on hover event to identify the feature as interactive to the user. The change in style on occurence of a hover event is detailed in the features section.
 
 ## **3. Features**
 ### **Implemented Functional Features**
+Features are arranged and combined, when appropriate, into the website in what was deemed to be the most intuitive and efficient manner. Multiple user stories may be dependent on a given feature and this is noted in the descriptions below. User 'story links' in this section of the readme are to the user story details and acceptance criteria for reference and the 'feature' in this section of teh readme are to the acceptance criteria for the features.
 - ### Landing page [[Feature](docs/readme-feature-list.pdf) 'Landing Page' (ID 3)]
   - The 'Landing page' (ID 3) [feature](docs/readme-feature-list.pdf) is a dependency of all of the [user stories](docs/readme-user-stories.pdf). 
 
-  The landing page is the site visitors welcome to the site. The background picture is Jo with a guitar to indicate she is a musician and if a user has seen JO they will know on seeing the background image that they have found the correct site. In case the background image is partially obscured by the objects on the page there is also the same picture of Jo in the about Jo section of the 'Home' Landing Page.
-   #### Landing Page (Home)
+  The landing page (Home) is the site visitors welcome to the site. The background picture is Jo with a guitar to indicate she is a musician and if a user has seen Jo they will know on seeing the background image that they have found the correct site. In case the background image is partially obscured by the objects on the page there is also the same picture of Jo in the about Jo section of the 'Home' Landing Page.
+ 
    ![The Landing Page](assets/readme/readme-landing-page.jpg)
 
    - #### Header and Footer
@@ -109,21 +110,28 @@ Any clickable or interactive feature or link will have a style change in respons
 
     - The 'Jo Bio' (ID 10) [feature](docs/readme-feature-list.pdf) is a dependency of [user story](docs/readme-user-stories.pdf) 10.
 
-    The 'About Jo' section of the landing (Home) page combines required [features](docs/readme-feature-list.pdf) 'Information about Jo’s music' (ID 1), 'Information about Jo’s services provided' (ID 5) and 'Jo Bio' (ID 10). It gives an overview of Jo as a performed and details about her talents, who she performs with and some information about her gigs. The information is on a semi trasnparent background of a lighter tone than the header and footer that lets the background image penetrate through. The preferred font is Arial and the font colour is a deeper tone of the header and the footer and is the same colour that is used in the logo and header to ensure accessibility by maintaining sufficient contrast of colours on the website.
+    The 'About Jo' section of the landing page (Home) combines required [features](docs/readme-feature-list.pdf) 'Information about Jo’s music' (ID 1), 'Information about Jo’s services provided' (ID 5) and 'Jo Bio' (ID 10). The section has its own heading in the same green used for the page logo and the font is "Great Vibes" the same as is used for all headings on the page. It gives an overview of Jo as a performed and details about her talents, who she performs with and some information about her gigs. The information is on a semi trasnparent background of a lighter tone than the header and footer that lets the background image penetrate through. The preferred font is Arial and the font colour is a deeper tone of the header and the footer and is the same colour that is used in the logo and header to ensure accessibility by maintaining sufficient contrast of colours on the website.
 
     ![About Jo](assets/readme/readme-about-jo.jpg)
 
   - #### Upcoming Gigs [[Feature](docs/readme-feature-list.pdf) 'Upcoming Gigs' (ID 4)]
     - The 'Upcoming Gigs' (ID 4) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 2, 5, 7, 8 and 11.
     
-    The 'Upcoming Gigs' section of the landing (Home) page contains information about Jos upcoming performances. Each gig is in its own container which is easily identified, duplicated or removed from from the code should gigs need modifying, adding or removing. The name or names of the performer or performers, if a duo, the name of the venue, the town of the venue, the gigs date, start time and entry fee are listed and arranged in a column in the order of importance. The name or names of the performers and the venue name are bold to show they are more important than the information to follow within the gig container and in the same colour as the logo for consistency, aesthetics and accessibility through contrast with the background colour. The town of the venue, date of performance, time of performance and entry fee are the same colour as the performer or performers name and the venue name but are not bold. The gigs section is resoonsive and the gig containers will wrap under eachother should the screen size necessaitat them to. They will always retain thei shape and size which were selected for compatibility and readability on all likely screen sizes. Each gig container is a clickable link to the website of the venue which will open the venue's website in a new tab. The name of the venue is underlined and the whole gig container will go opaque and gain a drop shadow on hover or touching on a touch senesitive device to indicate it is a clickable link to the user. 
+    The 'Upcoming Gigs' section of the landing page (Home) contains information about Jos upcoming performances. The section has its own heading in the same green used for the page logo and the font is "Great Vibes" the same as is used for all headings on the page. Each gig is in its own container which is easily identified, duplicated or removed from from the code should gigs need modifying, adding or removing. The name or names of the performer or performers, if a duo, the name of the venue, the town of the venue, the gigs date, start time and entry fee are listed and arranged in a column in the order of importance. The name or names of the performers and the venue name are bold to show they are more important than the information to follow within the gig container and in the same colour as the logo for consistency, aesthetics and accessibility through contrast with the background colour. The town of the venue, date of performance, time of performance and entry fee are the same colour as the performer or performers name and the venue name but are not bold. The gigs section is resoonsive and the gig containers will wrap under eachother should the screen size necessaitat them to. They will always retain thei shape and size which were selected for compatibility and readability on all likely screen sizes. Each gig container is a clickable link to the website of the venue which will open the venue's website in a new tab. The name of the venue is underlined and the whole gig container will go opaque from semi-transparent and gain a drop shadow on hover or touching on a touch senesitive device to indicate it is a clickable link to the user. 
 
     ![Upcoming Gigs](assets/readme/readme-upcoming-gigs.jpg)
 
   - #### Newsletter Request [[Feature](docs/readme-feature-list.pdf) 'Newsletter Signup' (ID 9)]
   - The 'Newsletter Signup' (ID 9) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 7, 8 and 10.
 
-  The 'Newsletter Request' section of the landing (Home) page 
+  The 'Newsletter Request' section of the landing page (Home) is a form enables the user to enter their email address to request being added to the newsletter mailing list. It is assumed that the user will be familiar with the concept of a newsletter and so, to keep the page uncluttered and to make it more aesthetically pleasing, this section has no text apart from its heading, (the preferred font being the same "Great Vibes" font as is used for the other headings on the website) and the label for the input field. The colour of the heading and the label is the same green as is used for the logo on all the website pages. The email input field validates the input and is a 'required' field and so the form will not submit without the field being populated. Being an input of type email it will not allow the submission of the form if the field is missing the @ symbol. For aesthetics, the text in the email input field is a tone of the same green used throughout the user interface. The submit button is the same opaque green as is used for the navigation buttons for continuity and also for continuity, all the components of the 'Newsletter Request' section are on a semi trasnparent green section wide background of the same style as the other heading and the 'About Jo' section of the page. The section is responsive and the email input field will slightly shorten to fit on small screen sizes. In lieu of a dedicated backend process the form is submitted to the Code Institute Form Dump which opens in a new tab and displays the data sent from the form. Using the form dump serves the purpose of confirming he form submits as intended and means that the 'flow' of the site is as it would be if a dedicated backend process was in place.
+
+- ### Weddings Page [[Feature](docs/readme-feature-list.pdf)] 'Wedding offering page with wedding gallery' (ID 7)]
+  - The 'Wedding offering page with wedding gallery' (ID 7) [feature](docs/readme-feature-list.pdf) is a dependency of [user story](docs/readme-user-stories.pdf) 6.
+
+The 'Weddings Page' 
+
+![Weddings Page](assets/readme/readme-weddings-page.jpg)
 
 ## **Testing**
 
