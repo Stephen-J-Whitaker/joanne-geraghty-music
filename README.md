@@ -8,7 +8,10 @@ The overall objective is for the site to be an enjoyable destination for any use
 ## **Contents**
 
 <!-- put feature links in contents -->
-1 [Project Initiation](#project-initiation)
+1 [Project Initiation](#1.-Project-Initiation)
+
+2 [Product Development](#2.-Product-Development)
+
 
 ## **1. Project Initiation**
 1. Brainstorming sessions helped to ascertain the business and user needs:
@@ -179,7 +182,7 @@ Features are arranged and combined, when appropriate, into the website in what w
 
   ![Contact Form](assets/readme/readme-contact-form.jpg)
 
-## **Testing**
+## **4. Testing**
 
 ### **Code Validation**
 #### HTML validation
@@ -211,7 +214,7 @@ When all user tests have passed and the features its dependent on have past then
 
 All feature and user stories have passed all their acceptance tests so the site is deemed ready for release.
 
-## **Releases**
+## **5. Releases**
 
 - ### Version 1.0 release : -09-2022
 
@@ -226,12 +229,12 @@ All feature and user stories have passed all their acceptance tests so the site 
 - Outstanding
   - Selector drop down box on contact form page is not styled correctly on IOS Apple Iphone
 
-## **Deployment**
+## **6. Deployment**
 The website is hosted by [GitHub Pages](https://pages.github.com/) from the main branch of the [joanne-geraghty-music Git repository](https://github.com/Stephen-J-Whitaker/joanne-geraghty-music). The deployment procedure can be found at the following link:
 
 - [Deployment Procedure](docs/readme-deployment-procedure.pdf)
 
-## **Technologies Used**
+## **7. Technologies Used**
 - CSS
 
 - HTML
@@ -276,7 +279,7 @@ The website is hosted by [GitHub Pages](https://pages.github.com/) from the main
 
 - [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/) : Used to validate the website CSS
 
-## **Credits**
+## **8. Credits**
 
 ### **Content**
 - All code was written by the author, Stephen Whitaker
