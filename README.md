@@ -7,6 +7,7 @@ The overall objective is for the site to be an enjoyable destination for any use
 
 ## **Contents**
 
+<!-- put feature links in contents -->
 1 [Project Initiation](#project-initiation)
 
 ## **1. Project Initiation**
@@ -67,41 +68,57 @@ Any clickable or interactive feature or link will have a style change in respons
 
 ## **3. Features**
 ### **Implemented Functional Features**
-- ### Landing page [Feature ID 3]
-  The landing page is a dependency of all of the user stories. 
+- ### Landing page [[Feature](docs/readme-feature-list.pdf) ID 3]
+  The 'Landing page' (ID 3) [feature](docs/readme-feature-list.pdf) is a dependency of all of the [user stories](docs/readme-user-stories.pdf). 
 
-  The landing page [Feature ID 3] is the site visitors welcome to the site. The background picture is Jo with a guitar to indicate she is a musician and if a user has seen JO they will know on seeing the background image that they have found the correct site. In case the background image is partially obscured by the objects on the page there is also the same picture of Jo in the about Jo section of the 'Home' Landing Page.
-
+  The landing page is the site visitors welcome to the site. The background picture is Jo with a guitar to indicate she is a musician and if a user has seen JO they will know on seeing the background image that they have found the correct site. In case the background image is partially obscured by the objects on the page there is also the same picture of Jo in the about Jo section of the 'Home' Landing Page.
+   #### Landing Page (Home)
    ![The Landing Page](assets/readme/readme-landing-page.jpg)
 
-   - The Landing page contains a header and a footer that is repeated on all of the websites pages for continuity, easy of navigation and an overall better user experience. The footer will stick at the bottom of the screen where the content of the page isnt large enough to push the footer to the bottom of the view port.
-   - The logo quickly identifies that site as being that of Joanne Geraghty and that the site is about her music. On hovering over the logo with a cursor or touching it with a finger on a touch sensitive device it's text gains a drop shadow to identify it as a clickable link. The link takes the user back to the Home 'Landing Page' 
+   - #### Header and Footer
+     The Landing page contains a header and a footer that is repeated on all of the websites pages for continuity, easy of navigation and an overall better user experience. The footer will stick at the bottom of the screen where the content of the page isnt large enough to push the footer to the bottom of the view port. The header and the footer are the same colours, are semi transparent to give the wesbite a 'light' and airy feel and to reveal the background image through them. They are a slightly darker tone of the same colour as the rest of the user tinerface and have a subtle drop shadow to 'lift' them away form the main content to give the site the appearance of depth.
+      - #### Header
+        ![Header](assets/readme/readme-header.jpg)
 
-      ![Logo](assets/readme/readme-logo.jpg)
+        - #### Logo
+          The logo is located on the header of the website and quickly identifies that site as being that of Joanne Geraghty and that the site is about her music. On hovering over the logo with a cursor or touching it with a finger on a touch sensitive device it's text gains a drop shadow to identify it as a clickable link. The link takes the user back to the Home 'Landing Page'. The preferred font is Google Fonts "Great Vibes" that is felt to add to the beauty of the site and the font colour is a deep tone of the header colour which is aesthetically pleasing and provides sufficent contrast between the text and the background for the site to achieve the necessary level of accessibility. 
+         
+          ![Logo](assets/readme/readme-logo.jpg)
 
+        - #### Navigation Bar 
+          The navigation bar has the links to the other website pages in the order of importance as decided by the busines. The weddings page is second in the list due to the wedding offering's importance to the business. The navigation bar is responsive and the navigation buttons will wrap under the logo on small screens in the same order when left to right top to bottom. The colours used for the navigation bar are tones of the header and footer colour to make its appearance aesthetically pleasing and the buttons with gain a drop shadow and, for user feedback, will change to a deeper tone on hovering over them with a cursor or touching them on a touch sensitive device. The navigation button of the page that the user is currently on has the same style as is used on hover or touch to indicate the page currently on. 
+          
+          ![Navigation Bar](assets/readme/readme-navigation.jpg)
+      
+      - #### Footer
+        The footer is the same colours as the header and has the same style drop shadow as the header for conistency, aesthetics and the best user experience. It contains the social media links.
+        
+        ![Footer](assets/readme/readme-footer.jpg)
 
+        - #### Social Media Links [[Feature](docs/readme-feature-list.pdf) ID 8]
+          The 'Social Media Links' (ID 8) [feature](docs/readme-feature-list.pdf) are a dependency of [user stories](docs/readme-user-stories.pdf) 3, 7, 8, 9, 11 and 12. 
 
-- **Navigation Bar**
+          The social media links (svg icons sourced from [Font Awsome](https://fontawesome.com/)) will take the user to the social media pages of Joanne Geraghty. They all open in a new tab for the benefit of user experience. On hovering over them with a cursor or touching them on a touch sensitive device they gain a surrounding box with a drop shadow as feedback to the user that indicates that they are a clickable object. They are the same colour as the logo text to make them aesthetically pleasing.
 
-    The navigations Bar
+          ![Social Media Links](assets/readme/readme-social-media-links.jpg)
 
-### **Features Left to Implement**
+  - #### About Jo [[Feature](docs/readme-feature-list.pdf) 'Information about Jo’s music' (ID 1) : [Feature](docs/readme-feature-list.pdf) 'Information about Jo’s services provided' (ID 5) : [Feature](docs/readme-feature-list.pdf) 'Jo Bio' (ID 10)]
+    The 'Information about Jo’s music' (ID 1) [feature](docs/readme-feature-list.pdf) is a dependency of [user story](docs/readme-user-stories.pdf) 1.
+    
+    The 'Information about Jo’s services provided' (ID 5) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 3, 4, 6, 9, 10 and 12.
 
+    The 'Jo Bio' (ID 10) [feature](docs/readme-feature-list.pdf) is a dependency of [user story](docs/readme-user-stories.pdf) 10.
+    The 'About Jo' combines required [features](docs/readme-feature-list.pdf) 'Information about Jo’s music' (ID 1), 'Information about Jo’s services provided' (ID 5) and 'Jo Bio' (ID 10). It gives an overview of Jo as a performed and details about her talents, who she performs with and some information about her gigs. The information is on a semi trasnparent background of a lighter tone than the header and footer that lets the background image penetrate through. The preferred font is Arial and the font colour is a deeper tone of the header and the footer and is the same colour that is used in the logo and header to ensure accessibility by maintaining sufficient contrast of colours on the website.
+
+    ![About Jo](assets/readme/readme-about-jo.jpg)
+
+  - #### Upcoming Gigs [[Feature](docs/readme-feature-list.pdf) ID 4]
+    The 'Upcoming Gigs' (ID 4) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 2, 5, 7, 8 and 11.
+    
+    
+
+    ![Upcoming Gigs](assets/readme/readme-upcoming-gigs.jpg)
 ## **Testing**
-
-### **Functionality tests**
-When all user tests have passed and the features its dependent on have past then the user story as a whole has passed.
-
-- #### User story acceptance tests
-  [User story acceptance tests](docs/readme-user-story-acceptance.pdf)
-
-- #### Feature acceptance tests
-  [Feature acceptance tests](docs/readme-feature-acceptance.pdf)
-
-- ### Project sign off
-[Project sign off](docs/readme-project-sign-off.pdf)
-
-All feature and user stories have passed all their acceptance tests so the site is deemed ready for release.
 
 ### **Code Validation**
 #### HTML validation
@@ -118,6 +135,24 @@ The website CSS was validated using [The W3C CSS Validation Service - Jigsaw](ht
 Lighthouse tests in dev tools in Chrome were used to verify that that website performed as required.
 
 ![Lighthouse results](assets/readme/test-results/lighthouse-results.jpg)
+
+### **Functionality tests**
+When all user tests have passed and the features its dependent on have past then the user story as a whole has passed.
+
+- #### User story acceptance tests
+  [User story acceptance tests](docs/readme-user-story-acceptance.pdf)
+
+- #### Feature acceptance tests
+  [Feature acceptance tests](docs/readme-feature-acceptance.pdf)
+
+### Project sign off
+[Project sign off](docs/readme-project-sign-off.pdf)
+
+All feature and user stories have passed all their acceptance tests so the site is deemed ready for release.
+
+## **Releases**
+
+- ### Version 1.0 release : -09-2022
 
 ### **Bugs found and resolved or outstanding**
 - Resolved
@@ -170,7 +205,7 @@ The website is hosted by [GitHub Pages](https://pages.github.com/) from the main
 
 - [Tinyjpg](https://tinyjpg.com/) : Used for image compression
 
-- [Google Fonts](https://fonts.google.com/about) : Used for fonts
+- [Google Fonts](https://fonts.google.com/about) : Used for fonts "Great Vibes" and Lato
 
 - [Font Awsome](https://fontawesome.com/) : Used to source social media svg files
 
