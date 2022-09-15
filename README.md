@@ -67,20 +67,19 @@ Any clickable or interactive feature or link will have a style change in respons
 
 ## **3. Features**
 ### **Implemented Functional Features**
-### Landing page
-The landing page is a dependency of all of the user stories. 
+- ### Landing page [Feature ID 3]
+  The landing page is a dependency of all of the user stories. 
 
-The landing page [Feature ID 3] is the site visitors welcome to the site. The background picture is Jo with a guitar to indicate she is a musician and if a user has seen JO they will know on seeing the background image that they have found the correct site. In case the background image is partially obscured by the objects on the page there is also the same picture of Jo in the about Jo section of the 'Home' Landing Page.
+  The landing page [Feature ID 3] is the site visitors welcome to the site. The background picture is Jo with a guitar to indicate she is a musician and if a user has seen JO they will know on seeing the background image that they have found the correct site. In case the background image is partially obscured by the objects on the page there is also the same picture of Jo in the about Jo section of the 'Home' Landing Page.
 
-  ![The Landing Page](assets/readme/readme-landing-page.jpg)
+   ![The Landing Page](assets/readme/readme-landing-page.jpg)
 
-The logo quickly identifies that site as being that of Joanne Geraghty and that the site is about her music. 
+   - The Landing page contains a header and a footer that is repeated on all of the websites pages for continuity, easy of navigation and an overall better user experience. The footer will stick at the bottom of the screen where the content of the page isnt large enough to push the footer to the bottom of the view port.
+   - The logo quickly identifies that site as being that of Joanne Geraghty and that the site is about her music. On hovering over the logo with a cursor or touching it with a finger on a touch sensitive device it's text gains a drop shadow to identify it as a clickable link. The link takes the user back to the Home 'Landing Page' 
+
+      ![Logo](assets/readme/readme-logo.jpg)
 
 
-
-- **Logo**
-
-    The Logo
 
 - **Navigation Bar**
 
