@@ -119,7 +119,7 @@ Features are arranged and combined, when appropriate, into the website in what w
   - #### Upcoming Gigs [[Feature](docs/readme-feature-list.pdf) 'Upcoming Gigs' (ID 4)]
     - The 'Upcoming Gigs' (ID 4) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 2, 5, 7, 8 and 11.
     
-    The 'Upcoming Gigs' section of the landing page (Home) contains information about Jos upcoming performances. The section has its own heading in the same green used for the page logo and the font is "Great Vibes" the same as is used for all headings on the page. Each gig is in its own container which is easily identified, duplicated or removed from from the code should gigs need modifying, adding or removing. The name or names of the performer or performers, if a duo, the name of the venue, the town of the venue, the gigs date, start time and entry fee are listed and arranged in a column in the order of importance. The name or names of the performers and the venue name are bold to show they are more important than the information to follow within the gig container and in the same colour as the logo for consistency, aesthetics and accessibility through contrast with the background colour. The town of the venue, date of performance, time of performance and entry fee are the same colour as the performer or performers name and the venue name but are not bold. The gigs section is resoonsive and the gig containers will wrap under eachother should the screen size necessaitat them to. They will always retain thei shape and size which were selected for compatibility and readability on all likely screen sizes. Each gig container is a clickable link to the website of the venue which will open the venue's website in a new tab. The name of the venue is underlined and the whole gig container will go opaque from semi-transparent and gain a drop shadow on hover or touching on a touch senesitive device to indicate it is a clickable link to the user. 
+    The 'Upcoming Gigs' section of the landing page (Home) contains information about Jos upcoming performances. The section has its own heading in the same green used for the page logo and the font is "Great Vibes" the same as is used for all headings on the page. The header has a background strip that is the same same semi-transparent green style as the backgrounds used for the 'About Jo' section. The strip is resposnive and reduces in length to fit on smaller screen sizes thought the font of the ehading remains the same size. Each gig is in its own container which is easily identified, duplicated or removed from from the code should gigs need modifying, adding or removing. The name or names of the performer or performers, if a duo, the name of the venue, the town of the venue, the gigs date, start time and entry fee are listed and arranged in a column in the order of importance. The name or names of the performers and the venue name are bold to show they are more important than the information to follow within the gig container and in the same colour as the logo for consistency, aesthetics and accessibility through contrast with the background colour. The town of the venue, date of performance, time of performance and entry fee are the same colour as the performer or performers name and the venue name but are not bold. The gigs section is resoonsive and the gig containers will wrap under eachother should the screen size necessitate them to. They will always retain thei shape and size which were selected for compatibility and readability on all likely screen sizes. Each gig container is a clickable link to the website of the venue which will open the venue's website in a new tab. The name of the venue is underlined and the whole gig container will go opaque from semi-transparent and gain a drop shadow on hover or touching on a touch senesitive device to indicate it is a clickable link to the user. 
 
     ![Upcoming Gigs](assets/readme/readme-upcoming-gigs.jpg)
 
@@ -131,7 +131,7 @@ Features are arranged and combined, when appropriate, into the website in what w
 - ### Weddings Page [[Feature](docs/readme-feature-list.pdf)] 'Wedding offering page with wedding gallery' (ID 7)]
   - The 'Wedding offering page with wedding gallery' (ID 7) [feature](docs/readme-feature-list.pdf) is a dependency of [user story](docs/readme-user-stories.pdf) 6.
 
-  The 'Weddings Page' is layed out the same way as the landing page (Home). The header and the footer and all associated features of these are identical to the landing page (Home) in all ways with the exception that it is the 'Weddings' navigation buttons that styled differently from the rest to indicate that it is the Wddings page that the user is in instead of the Home button, as is the case on the landing page (Home). The background is styled the same was as the landing page (Home) but instead of it being an image of Jo with a guitar on a beach it is a wedding themed picture to set the scene for the page. The colours in the background are predominantly greens that harmonise with those of the header, footer and semi transparent section backdrops and contribnute to the desired calm feel of the site which is intended invoke a positive emotional response in the user and therefore improve the user experience.
+  The 'Weddings Page' is layed out the same way as the landing page (Home). The header and the footer and all associated features of these are identical to the landing page (Home) in all ways with the exception that it is the 'Weddings' navigation buttons that styled differently from the rest to indicate that it is the Weddings page that the user is in instead of the Home button, (as is the case on the landing page (Home)). The background is styled the same as the landing page (Home) but instead of it being an image of Jo with a guitar on a beach it is a wedding themed picture to set the scene for the page. The colours in the background are predominantly greens that harmonise with those of the header, footer and semi transparent section backdrops and contribnute to the desired calm feel of the site which is intended invoke a positive emotional response in the user and therefore improve the user experience.
 
    ![Weddings Page](assets/readme/readme-weddings-page.jpg)
 
@@ -146,6 +146,28 @@ Features are arranged and combined, when appropriate, into the website in what w
      The section as a whole is responsive. The text section resizes, though the font of the heading and the content stays the same size, and the gallery will wrap so that they are arranged as a column on smaller screens.
 
      ![Weddings Section](assets/readme/readme-weddings-offering.jpg)
+
+- ### Gallery Page [[Feature](docs/readme-feature-list.pdf)] 'Gallery page (image / video)' (ID 6)]
+  - The 'Gallery page (image / video)' (ID 6) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 3, 4, 9, 10, 11 and 12.
+
+  The 'Gallery Page' is layed out the same way as the landing page (Home). The header and the footer and all associated features of these are identical to the landing page (Home) in all ways with the exception that it is the 'Gallery' navigation buttons that styled differently from the rest to indicate that it is the Weddings page that the user is in instead of the Home button, (as is the case on the landing page (Home)). The background is styled the same as the landing page (Home).
+
+  ![Gallery Page](assets/readme/readme-gallery-page.jpg)
+
+  - Pictures Gallery Section
+
+    The pictures gallery section has a header that is styled the same as the header used for 'Upcomming Gigs' and contains a copy of all other images that are across the site (with the exception of the wedding page background image as it is not related to Jos music) to ensure that a visitor who does not visit all of the rest of the site has the opporunity to see all of the pictures. The images are styled the same as the other non background images on the site (as described in the 'Weddings' section) for consistency.  
+
+    ![Pictures Gallery](assets/readme/readme-photo-gallery.jpg)
+
+  - Videos Gallery Section
+  
+    The Videos Gallery section has a header that is styled the same as the header used for 'Upcomming Gigs' and contains a copy of any other videos that are across the site to ensure that a visitor who does not visit all of the rest of the site has the opporunity to see all of the videos available. The videos are styled the same as the other videos on the site (as described in the 'Weddings' section) and none will play automatically on page load for consistency and the best user experience.
+
+    ![Videos Gallery](assets/readme/readme-video-gallery.jpg)
+
+- ### Contact Page [[Feature](docs/readme-feature-list.pdf)] 'Contact Form' (ID 2)]
+  - The 'Contact Form' (ID 2) [feature](docs/readme-feature-list.pdf) is a dependency of [user story](docs/readme-user-stories.pdf) 1, 2, 3, 4, 5, 6, 9, 10 and 12.
 
 ## **Testing**
 
