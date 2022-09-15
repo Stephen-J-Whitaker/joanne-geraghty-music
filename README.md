@@ -93,8 +93,8 @@ Any clickable or interactive feature or link will have a style change in respons
 
 When all user tests have passed and the features its dependent on have past then the user story as a whole has passed.
 
-- ### Feateure acceptance tests
-  [Feature acceptace tests](docs/readme-scope-analysis.pdf)
+- ### Feature acceptance tests
+  [Feature acceptace tests](docs/readme-feature-acceptance.pdf)
 
 
 All feature and user stories have passed all their acceptance tests so the site is deemed ready for release.
