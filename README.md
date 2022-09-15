@@ -8,9 +8,9 @@ The overall objective is for the site to be an enjoyable destination for any use
 ## **Contents**
 
 <!-- put feature links in contents -->
-1 [Project Initiation](#1.-Project-Initiation)
+1 [Project Initiation](#1-Project-Initiation)
 
-2 [Product Development](#2.-Product-Development)
+2 [Product Development](#2-Product-Development)
 
 
 ## **1. Project Initiation**
