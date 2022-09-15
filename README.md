@@ -68,8 +68,8 @@ Any clickable or interactive feature or link will have a style change in respons
 
 ## **3. Features**
 ### **Implemented Functional Features**
-- ### Landing page [[Feature](docs/readme-feature-list.pdf) ID 3]
-  The 'Landing page' (ID 3) [feature](docs/readme-feature-list.pdf) is a dependency of all of the [user stories](docs/readme-user-stories.pdf). 
+- ### Landing page [[Feature](docs/readme-feature-list.pdf) 'Landing Page' (ID 3)]
+  - The 'Landing page' (ID 3) [feature](docs/readme-feature-list.pdf) is a dependency of all of the [user stories](docs/readme-user-stories.pdf). 
 
   The landing page is the site visitors welcome to the site. The background picture is Jo with a guitar to indicate she is a musician and if a user has seen JO they will know on seeing the background image that they have found the correct site. In case the background image is partially obscured by the objects on the page there is also the same picture of Jo in the about Jo section of the 'Home' Landing Page.
    #### Landing Page (Home)
@@ -86,7 +86,7 @@ Any clickable or interactive feature or link will have a style change in respons
           ![Logo](assets/readme/readme-logo.jpg)
 
         - #### Navigation Bar 
-          The navigation bar has the links to the other website pages in the order of importance as decided by the busines. The weddings page is second in the list due to the wedding offering's importance to the business. The navigation bar is responsive and the navigation buttons will wrap under the logo on small screens in the same order when left to right top to bottom. The colours used for the navigation bar are tones of the header and footer colour to make its appearance aesthetically pleasing and the buttons with gain a drop shadow and, for user feedback, will change to a deeper tone on hovering over them with a cursor or touching them on a touch sensitive device. The navigation button of the page that the user is currently on has the same style as is used on hover or touch to indicate the page currently on. 
+          The navigation bar has the links to the other website pages in the order of importance as decided by the busines. The weddings page is second in the list due to the wedding offering's importance to the business. The nevigation anchor links are in an ordered list in the html to show that their order should be maintained. The navigation bar is responsive and the navigation buttons will wrap under the logo on small screens in the same order when left to right top to bottom. The colours used for the navigation bar are tones of the header and footer colour to make its appearance aesthetically pleasing and the buttons with gain a drop shadow and, for user feedback, will change to a deeper tone on hovering over them with a cursor or touching them on a touch sensitive device. The navigation button of the page that the user is currently on has the same style as is used on hover or touch to indicate the page currently on. 
           
           ![Navigation Bar](assets/readme/readme-navigation.jpg)
       
@@ -95,29 +95,36 @@ Any clickable or interactive feature or link will have a style change in respons
         
         ![Footer](assets/readme/readme-footer.jpg)
 
-        - #### Social Media Links [[Feature](docs/readme-feature-list.pdf) ID 8]
-          The 'Social Media Links' (ID 8) [feature](docs/readme-feature-list.pdf) are a dependency of [user stories](docs/readme-user-stories.pdf) 3, 7, 8, 9, 11 and 12. 
+        - #### Social Media Links [[Feature](docs/readme-feature-list.pdf) 'Social Media Links' (ID 8)]
+          - The 'Social Media Links' (ID 8) [feature](docs/readme-feature-list.pdf) are a dependency of [user stories](docs/readme-user-stories.pdf) 3, 7, 8, 9, 11 and 12. 
 
-          The social media links (svg icons sourced from [Font Awsome](https://fontawesome.com/)) will take the user to the social media pages of Joanne Geraghty. They all open in a new tab for the benefit of user experience. On hovering over them with a cursor or touching them on a touch sensitive device they gain a surrounding box with a drop shadow as feedback to the user that indicates that they are a clickable object. They are the same colour as the logo text to make them aesthetically pleasing.
+          The social media links (svg icons sourced from [Font Awsome](https://fontawesome.com/)) will take the user to the social media pages of Joanne Geraghty. They all open in a new tab for the benefit of user experience. On hovering over them with a cursor or touching them on a touch sensitive device they gain a surrounding box with a drop shadow as feedback to the user that indicates that they are a clickable object. They are the same colour as the logo text to make them aesthetically pleasing. SVG icons were chosen to ensure they would always be as sharp as possible if resizing become necessary for responsiveness.
 
           ![Social Media Links](assets/readme/readme-social-media-links.jpg)
 
   - #### About Jo [[Feature](docs/readme-feature-list.pdf) 'Information about Jo’s music' (ID 1) : [Feature](docs/readme-feature-list.pdf) 'Information about Jo’s services provided' (ID 5) : [Feature](docs/readme-feature-list.pdf) 'Jo Bio' (ID 10)]
-    The 'Information about Jo’s music' (ID 1) [feature](docs/readme-feature-list.pdf) is a dependency of [user story](docs/readme-user-stories.pdf) 1.
+    - The 'Information about Jo’s music' (ID 1) [feature](docs/readme-feature-list.pdf) is a dependency of [user story](docs/readme-user-stories.pdf) 1.
     
-    The 'Information about Jo’s services provided' (ID 5) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 3, 4, 6, 9, 10 and 12.
+    - The 'Information about Jo’s services provided' (ID 5) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 3, 4, 6, 9, 10 and 12.
 
-    The 'Jo Bio' (ID 10) [feature](docs/readme-feature-list.pdf) is a dependency of [user story](docs/readme-user-stories.pdf) 10.
-    The 'About Jo' combines required [features](docs/readme-feature-list.pdf) 'Information about Jo’s music' (ID 1), 'Information about Jo’s services provided' (ID 5) and 'Jo Bio' (ID 10). It gives an overview of Jo as a performed and details about her talents, who she performs with and some information about her gigs. The information is on a semi trasnparent background of a lighter tone than the header and footer that lets the background image penetrate through. The preferred font is Arial and the font colour is a deeper tone of the header and the footer and is the same colour that is used in the logo and header to ensure accessibility by maintaining sufficient contrast of colours on the website.
+    - The 'Jo Bio' (ID 10) [feature](docs/readme-feature-list.pdf) is a dependency of [user story](docs/readme-user-stories.pdf) 10.
+
+    The 'About Jo' section of the landing (Home) page combines required [features](docs/readme-feature-list.pdf) 'Information about Jo’s music' (ID 1), 'Information about Jo’s services provided' (ID 5) and 'Jo Bio' (ID 10). It gives an overview of Jo as a performed and details about her talents, who she performs with and some information about her gigs. The information is on a semi trasnparent background of a lighter tone than the header and footer that lets the background image penetrate through. The preferred font is Arial and the font colour is a deeper tone of the header and the footer and is the same colour that is used in the logo and header to ensure accessibility by maintaining sufficient contrast of colours on the website.
 
     ![About Jo](assets/readme/readme-about-jo.jpg)
 
-  - #### Upcoming Gigs [[Feature](docs/readme-feature-list.pdf) ID 4]
-    The 'Upcoming Gigs' (ID 4) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 2, 5, 7, 8 and 11.
+  - #### Upcoming Gigs [[Feature](docs/readme-feature-list.pdf) 'Upcoming Gigs' (ID 4)]
+    - The 'Upcoming Gigs' (ID 4) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 2, 5, 7, 8 and 11.
     
-    
+    The 'Upcoming Gigs' section of the landing (Home) page contains information about Jos upcoming performances. Each gig is in its own container which is easily identified, duplicated or removed from from the code should gigs need modifying, adding or removing. The name or names of the performer or performers, if a duo, the name of the venue, the town of the venue, the gigs date, start time and entry fee are listed and arranged in a column in the order of importance. The name or names of the performers and the venue name are bold to show they are more important than the information to follow within the gig container and in the same colour as the logo for consistency, aesthetics and accessibility through contrast with the background colour. The town of the venue, date of performance, time of performance and entry fee are the same colour as the performer or performers name and the venue name but are not bold. The gigs section is resoonsive and the gig containers will wrap under eachother should the screen size necessaitat them to. They will always retain thei shape and size which were selected for compatibility and readability on all likely screen sizes. Each gig container is a clickable link to the website of the venue which will open the venue's website in a new tab. The name of the venue is underlined and the whole gig container will go opaque and gain a drop shadow on hover or touching on a touch senesitive device to indicate it is a clickable link to the user. 
 
     ![Upcoming Gigs](assets/readme/readme-upcoming-gigs.jpg)
+
+  - #### Newsletter Request [[Feature](docs/readme-feature-list.pdf) 'Newsletter Signup' (ID 9)]
+  - The 'Newsletter Signup' (ID 9) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 7, 8 and 10.
+
+  The 'Newsletter Request' section of the landing (Home) page 
+
 ## **Testing**
 
 ### **Code Validation**
