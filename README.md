@@ -102,12 +102,12 @@ When all user tests have passed and the features its dependent on have past then
 All feature and user stories have passed all their acceptance tests so the site is deemed ready for release.
 
 ### **Code Validation**
-### HTML validation
+#### HTML validation
 The website HTML was validated using [The W3C Markup Validation Service](https://validator.w3.org/#validate_by_uri)
 
 ![W3C HTML validator results](assets/readme/test-results/w3c-html-validator-results.jpg)
 
-### CSS Validation
+#### CSS Validation
 The website CSS was validated using [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
 
 ![W3C CSS validator results](assets/readme/test-results/w3c-css-validator-results.jpg)
