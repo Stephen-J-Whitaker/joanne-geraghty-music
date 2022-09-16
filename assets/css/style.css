@@ -65,7 +65,7 @@ body {
 /* "Great Vibes" font is served by google fonts https://fonts.google.com/about" */
 .logo h1 {
     font-family: "Great Vibes", cursive;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-top: 20px;
     margin-bottom: 0;
     font-weight: bold;
@@ -167,8 +167,8 @@ nav ol {
     text-align: center;
     font-size: large;
     font-weight: 400;
-    background-color: rgba(206, 224, 224, 0.7);
-    backdrop-filter: blur(1px);
+    background-color: rgba(206, 224, 224, 0.8);
+    backdrop-filter: blur(3px);
     border-radius: 10px;
     padding: 3px;
 }
@@ -243,8 +243,8 @@ nav ol {
     box-sizing: border-box;
     text-align: center;
     font-weight: 400;
-    background-color: rgba(206, 224, 224, 0.7);
-    backdrop-filter: blur(1px);
+    background-color: rgba(206, 224, 224, 0.8);
+    backdrop-filter: blur(3px);
     border-radius: 10px;
     font-family: Arial, Lato, Helvetica, sans-serif;
     padding: 1rem;
@@ -478,6 +478,17 @@ label {
     text-shadow: 0px 0px 20px rgba(51, 102, 102, 1);
 }
 
+/* Media queries */
+
+/* For medium screen sizes 640px and up */
+@media screen and (min-width: 640px){
+
+    .logo h1 {
+        font-size: 4rem;
+    }
+
+}
+
 /* For larger screen sizes 1100px and up */
 @media screen and (min-width: 1100px){
 
@@ -515,6 +526,7 @@ label {
     }
 
     .logo h1 {
+        font-size: 4rem;
         text-align: center;
     }
     
