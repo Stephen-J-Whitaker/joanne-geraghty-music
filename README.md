@@ -211,11 +211,12 @@ Lighthouse tests in dev tools in Chrome were used to verify that that website pe
 ### **Functionality tests**
 When all user tests have passed and the features its dependent on have past then the user story as a whole has passed.
 
-- #### User story acceptance tests
-  [User story acceptance tests](docs/readme-user-story-acceptance.pdf)
+- #### [User story acceptance tests](docs/readme-user-story-acceptance.pdf)
 
-- #### Feature acceptance tests
-  [Feature acceptance tests](docs/readme-feature-acceptance.pdf)
+- #### [Feature acceptance tests](docs/readme-feature-acceptance.pdf)
+  - Note : In additions to the above tests the wesbite was frequently tested for responsivenes in Chrome DevTools and on mobile devices in landscape and portrait mode. The sites responsiveness was also tested on an Apple iPad in portrait and landscape mode and it performed well rearranging and resizing the pages as necessary.
+
+  - Note : The site has not yet been tested on and Linux based operating systems.
 
 ### Project sign off
 [Project sign off](docs/readme-project-sign-off.pdf)
@@ -226,16 +227,19 @@ All feature and user stories have passed all their acceptance tests so the site 
 
 - ### Version 1.0 release : -09-2022
 
-### **Bugs found and resolved or outstanding**
-- Resolved
-  - H265 mpeg video was not supported by some browsers so transcoded with [VLC](https://www.videolan.org/) to H264
+### **Bugs found and resolved or current**
+- Pre accceptance test bugs / issues resolved
+  - Note : Selector drop down box on contact form page is not styled correctly on Apple iPhone IOS - this cannot be resolved without webkit CSS extensions and so is not deemed a website bug.
 
-  - Embedded audio in videos was not supported by IOS so transcoded with [VLC](https://www.videolan.org/) to contain AAC audio
+  - H265 mpeg video was not supported by some browsers. Bug resolution : Transcoded with [VLC](https://www.videolan.org/) to H264.
 
-  - Text was unreadable on Android phones on the semi-transparent backgrounds as Arial was not installed on the Android phones tested with and the browser fell back to the Android default sans serif font which was extremely thin. Google fonts Lato was added as a fallback for Arial and this resolved the issue.
+  - Embedded audio in videos was not supported by IOS. Bug resolution : Transcoded with [VLC](https://www.videolan.org/) to contain AAC audio.
+
+  - Text was unreadable on Android phones on the semi-transparent backgrounds as Arial was not installed on the Android phones tested with and the browser fell back to the Android default sans serif font which was extremely thin. Bug resolution : Google fonts Lato was added as a fallback for Arial.
+ 
+- Current bugs / issues
   
-- Outstanding
-  - Selector drop down box on contact form page is not styled correctly on IOS Apple Iphone
+  - See the [Feature acceptance tests](docs/readme-feature-acceptance.pdf) spreadsheet
 
 ## **6. Deployment**
 The website is hosted by [GitHub Pages](https://pages.github.com/) from the main branch of the [joanne-geraghty-music Git repository](https://github.com/Stephen-J-Whitaker/joanne-geraghty-music). The deployment procedure can be found at the following link:
@@ -306,4 +310,4 @@ The website is hosted by [GitHub Pages](https://pages.github.com/) from the main
 
 ### **Acknowledgements**
 - A special thank you to my mentor Maranatha Ilesanmi
-- Thank you to all those who were kind enough to test and provide feedback on the website
+- Thank you to all those who were kind enough to test the website and provide feedback
