@@ -14,107 +14,110 @@ The [‘Joanne Geraghty Music’](https://stephen-j-whitaker.github.io/joanne-ge
 
 4 [Testing](#4-Testing)
 
-5 [Releases](#5-Releases)
+5 [Project sign off](#5-project-sign-off)
 
-6 [Deployment](#6-Deployment)
+6 [Releases](#6-Releases)
 
-7 [Technologies Used](#7-Technologies-Used)
+7 [Deployment](#7-Deployment)
 
-8 [Credits](#8-credits)
+8 [Technologies Used](#8-Technologies-Used)
+
+9 [Credits](#9-credits)
 
 ## **1. Project Initiation**
 1. Brainstorming sessions helped to ascertain the business and user needs:
 
-    [Business opportunities and business and user needs brainstorm](docs/readme-brainstorm.pdf)
+    - [Business opportunities and business and user needs brainstorm](docs/readme-brainstorm.pdf)
 
 2. The opportunities were assessed for importance and viability and the minimum viable product was ascetertained:
 
-    [Minimum viable product analysis spreadsheet](docs/readme-opportunity-analysis.pdf)
+    - [Minimum viable product analysis spreadsheet](docs/readme-opportunity-analysis.pdf)
 
-    [Minimum viable product analysis charts](docs/readme-scope-analysis.pdf)
+    - [Minimum viable product analysis charts](docs/readme-scope-analysis.pdf)
 
 4.  User needs were checked to make sure they satisfy a business opportunity:
 
-    [User need to business opportunity connection analysis](docs/readme-user-need-business-opporuntity-link.pdf)
+    - [User need to business opportunity connection analysis](docs/readme-user-need-business-opporuntity-link.pdf)
 
 5. User stories with acceptance criteria were developed:
 
-    [User stories](docs/readme-user-stories.pdf)
+    - [User stories](docs/readme-user-stories.pdf)
 
 6. A feature list was developed from the user stories and it was ensured that there was no duplicated functionality going into development. These have acceptance criteria:
 
-    [Feature list](docs/readme-feature-list.pdf)
+    - [Feature list](docs/readme-feature-list.pdf)
 
 ## **2. Product Development**
-### **Poduct Functionailty development**
-### Wireframes 
-Wireframes were developed for a site that incorporated all of the required features identified during project initiation.
+- ### **Poduct Functionailty development**
 
-  - [Landing page wireframes](docs/readme-wireframes-landing-page.pdf)
+  - ### Wireframes 
+    Wireframes were developed for a site that incorporated all of the required features identified during project initiation.
 
-  - [Weddings page wireframes](docs/readme-wireframes-weddings-page.pdf)
+    - [Landing page wireframes](docs/readme-wireframes-landing-page.pdf)
 
-  - [Gallery page wireframes](docs/readme-wireframes-gallery-page.pdf)
+    - [Weddings page wireframes](docs/readme-wireframes-weddings-page.pdf)
 
-  - [Contact form page wireframes](docs/readme-wireframes-contact-form-page.pdf)
+    - [Gallery page wireframes](docs/readme-wireframes-gallery-page.pdf)
 
-  - [User interface flow](docs/readme-user-interface-flow.pdf)
+    - [Contact form page wireframes](docs/readme-wireframes-contact-form-page.pdf)
 
-  - [Mockup with colour scheme](docs/readme-mockup-colour-scheme.pdf)
+    - [User interface flow](docs/readme-user-interface-flow.pdf)
 
-### **Product Style Development**
-- ### Typography
-  It was decided to use one cursive font, one serif and one sans serif font throughout the site. The cursive font "Great Vibes" ([Google Fonts](https://fonts.google.com/about)) is used for the logo and the headings on all the web pages, the preferred serif font "Times New Roman" is only used for the text "Music for all occasions" in the logo and the sans serif font Arial is used for all other text. The use of the same 3 preffered fonts on all pages provides continuity and is intended to help the pages look uncluttered and make the site a more pleasant place to be for its users.
+    - [Mockup with colour scheme](docs/readme-mockup-colour-scheme.pdf)
 
-- ### Colour Scheme
-  The mint green colour scheme and small monochrome pallete used for the user interface was chosen to make the site appear 'fresh' and 'light' and so help to envoke positive emotions in the user. The semi-transparency of the interface is to add to the sense 'lightness' and to provide a sense of depth to the site. The colours are used consistently throughout the site with the headers and footers being one tone of mint green and the main body of the pages being a lighter tone of mint green. All other colour is provided by the background images and, where present, gallery pictures and videos. A mix of grey scale and colour videos and photos was chosen and arranged to provide balance to the pages in which they are present without introducing clashing or overly vibrant colours that would work against the use of the mint theme used to envoke a tranquil ambience in the site.  
+- ### **Product Style Development**
+  - ### Typography
+    It was decided to use one cursive font, one serif and one sans serif font throughout the site. The cursive font "Great Vibes" ([Google Fonts](https://fonts.google.com/about)) is used for the logo and the headings on all the web pages, the preferred serif font "Times New Roman" is only used for the text "Music for all occasions" in the logo and the sans serif font Arial is used for all other text. The use of the same 3 preffered fonts on all pages provides continuity and is intended to help the pages look uncluttered and make the site a more pleasant place to be for its users.
 
-- ### Images
-  The full viewport background images with the semi transparent user interface was chosen to give an ethereal 'lightness' and depth to the site. All the images and videos used in the galleries are cropped to a square aspect ratio and are the same size for consistency to help produce a positive emotional response in the user.  
+  - ### Colour Scheme
+    The mint green colour scheme and small monochrome pallete used for the user interface was chosen to make the site appear 'fresh' and 'light' and so help to envoke positive emotions in the user. The semi-transparency of the interface is to add to the sense 'lightness' and to provide a sense of depth to the site. The colours are used consistently throughout the site with the headers and footers being one tone of mint green and the main body of the pages being a lighter tone of mint green. All other colour is provided by the background images and, where present, gallery pictures and videos. A mix of grey scale and colour videos and photos was chosen and arranged to provide balance to the pages in which they are present without introducing clashing or overly vibrant colours that would work against the use of the mint theme used to envoke a tranquil ambience in the site.  
 
-- ### Layout
-  A simple and consistent full page scroll with a header and 'sticky' footer was chosen as it is familiar with internet users and will be intuitive to navigate. The layout is responsive and, for consistency, all the features look the same on all viewport sizes (although some, like the navigation bar, are arranged differently and wrap under other objects for smaller viewport sizes). The header and footer is the same on all pages. With the exception of the weddings page the background image is the same on all pages for consistency. The wedding page has a wedding themed background image as detailed in the [feature](docs/readme-feature-list.pdf) specifications.
+  - ### Images
+    The full viewport background images with the semi transparent user interface was chosen to give an ethereal 'lightness' and depth to the site. All the images and videos used in the galleries are cropped to a square aspect ratio and are the same size for consistency to help produce a positive emotional response in the user.  
 
-- ### User Feedback
-  Any clickable or interactive feature or link will have a style change in response to an on hover event to identify the feature as interactive to the user. The changes in style on occurence of a hover event are detailed in the features section below.
+  - ### Layout
+    A simple and consistent full page scroll with a header and 'sticky' footer was chosen as it is familiar with internet users and will be intuitive to navigate. The layout is responsive and, for consistency, all the features look the same on all viewport sizes (although some, like the navigation bar, are arranged differently and wrap under other objects for smaller viewport sizes). The header and footer is the same on all pages. With the exception of the weddings page the background image is the same on all pages for consistency. The wedding page has a wedding themed background image as detailed in the [feature](docs/readme-feature-list.pdf) specifications.
+
+  - ### User Feedback
+    Any clickable or interactive feature or link will have a style change in response to an on hover event to identify the feature as interactive to the user. The changes in style on occurence of a hover event are detailed in the features section below.
 
 ## **3. Features**
 Features are arranged and combined, when appropriate, into the website in what was deemed to be the most intuitive and efficient manner. Multiple user stories may be dependent on a given feature and this is noted in the descriptions below. 'User story' links in this section of the readme are to the user story details and acceptance criteria for reference and the 'feature' links in this section of the readme are to the acceptance criteria for the features.
-- ### Landing page [[Feature](docs/readme-feature-list.pdf) 'Landing Page' (ID 3)]
+- ### **Landing page** [[Feature](docs/readme-feature-list.pdf) 'Landing Page' (ID 3)]
   - The 'Landing page' (ID 3) [feature](docs/readme-feature-list.pdf) is a dependency of all of the [user stories](docs/readme-user-stories.pdf). 
 
   The landing page (Home) is the site visitors welcome to the site. The background picture is Jo with a guitar to indicate she is a musician and if a user has seen Jo before then they will know on seeing the background image that they have found the correct site. A light coloured background picture was chosen with colours that harmonise with the colours of the interface and helps set the mood of the page and the site as a whole. In case the background image is partially obscured by the objects on the page (dependent on viewport size) the same picture of Jo is also in the 'About Jo' section of the Landing Page (Home).
  
    ![The Landing Page](assets/readme/readme-landing-page.jpg)
 
-   - #### Header and Footer
+   - #### **Header and Footer**
      The Landing page contains a header and a footer that is repeated on all of the website's pages for continuity, ease of navigation and an overall better user experience. The footer will stick at the bottom of the viewport should the content of the page not be large enough to 'push' the footer to the bottom of the viewport. The header and the footer are the same colours, are semi-transparent to give the wesbite a 'light' and airy feel and to reveal the background image through them. They are a slightly darker tone of the same colour as the rest of the user interface and have a subtle drop shadow to 'lift' them away from the main content and to give the site an illusion of depth. Both the header and footer and their contents, where necessary, are responsive and resize so they are accomodated by smaller viewports.
-      - #### Header
+      - #### **Header**
         ![Header](assets/readme/readme-header.jpg)
 
-        - #### Logo
+        - #### **Logo**
           The logo is located on the header of the website and it quickly identifies the site as being that of Joanne Geraghty. It also informs the user that the site is about Jo's music. On hovering over the logo with a cursor or touching it with a finger on a touch sensitive device its text gains a drop shadow to identify it as a clickable link. The link takes the user back to the 'Landing Page' (Home). The preferred font of "Joanne Geraghty Music" Google Fonts "Great Vibes" combined with the less emphasised line of the logo "Music for all occasions" is felt to add to the beauty of the site. The font colour is a deep tone of the header colour which is aesthetically pleasing and provides sufficent contrast between the text and the background for the site to achieve the necessary level of accessibility. 
          
           ![Logo](assets/readme/readme-logo.jpg)
 
-        - #### Navigation Bar 
+        - #### **Navigation Bar** 
           The navigation bar is an easy way for the user to navigate and explore the site intuitively and without the use of the browser back button. It has links to the other website pages in the order of importance as decided by the business. The weddings page is second in the list due to the wedding offering's importance to the business. The navigation anchor links are in an ordered list in the html to show that their order should be maintained. The navigation bar is responsive and the navigation buttons will wrap under the logo on small viewports in the same order when read left to right, top to bottom. The colours used for the navigation bar are tones of the header and footer colour to make its appearance pleasing to the eye and the buttons gain a drop shadow and, for user feedback, will change to a deeper tone on hovering over them with a cursor or touching them on a touch sensitive device. To indicate the page that the user is currently on, the navigation button of that page has the same style as is used on hover or touch. 
           
           ![Navigation Bar](assets/readme/readme-navigation.jpg)
       
-      - #### Footer
+      - #### **Footer**
         The footer is the same colours as the header and has the same style drop shadow as the header for conistency, aesthetics and the best user experience. It contains the social media links.
         
         ![Footer](assets/readme/readme-footer.jpg)
 
-        - #### Social Media Links [[Feature](docs/readme-feature-list.pdf) 'Social Media Links' (ID 8)]
+        - #### **Social Media Links** [[Feature](docs/readme-feature-list.pdf) 'Social Media Links' (ID 8)]
           - The 'Social Media Links' (ID 8) [feature](docs/readme-feature-list.pdf) are a dependency of [user stories](docs/readme-user-stories.pdf) 3, 7, 8, 9, 11 and 12. 
 
           The social media links (svg icons sourced from [Font Awsome](https://fontawesome.com/)) will take the user to the social media pages of Joanne Geraghty so that the user can follow Jo or view additional information not available on the site. They all open in a new tab for the benefit of user experience. On hovering over them with a cursor or touching them they gain a surrounding box with a drop shadow as feedback to the user that indicates that they are a clickable link. They are the same colour as the logo text for aesthetics. SVG icons were chosen to ensure they would always be as sharp as possible if resizing became necessary for site responsiveness.
 
           ![Social Media Links](assets/readme/readme-social-media-links.jpg)
 
-  - #### About Jo [[Feature](docs/readme-feature-list.pdf) 'Information about Jo’s music' (ID 1) : [Feature](docs/readme-feature-list.pdf) 'Information about Jo’s services provided' (ID 5) : [Feature](docs/readme-feature-list.pdf) 'Jo Bio' (ID 10)]
+  - #### **About Jo** [[Feature](docs/readme-feature-list.pdf) 'Information about Jo’s music' (ID 1) : [Feature](docs/readme-feature-list.pdf) 'Information about Jo’s services provided' (ID 5) : [Feature](docs/readme-feature-list.pdf) 'Jo Bio' (ID 10)]
     - The 'Information about Jo’s music' (ID 1) [feature](docs/readme-feature-list.pdf) is a dependency of [user story](docs/readme-user-stories.pdf) 1.
     
     - The 'Information about Jo’s services provided' (ID 5) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 3, 4, 6, 9, 10 and 12.
@@ -127,26 +130,26 @@ Features are arranged and combined, when appropriate, into the website in what w
 
     ![About Jo](assets/readme/readme-about-jo.jpg)
 
-  - #### Upcoming Gigs [[Feature](docs/readme-feature-list.pdf) 'Upcoming Gigs' (ID 4)]
+  - #### **Upcoming Gigs** [[Feature](docs/readme-feature-list.pdf) 'Upcoming Gigs' (ID 4)]
     - The 'Upcoming Gigs' (ID 4) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 2, 5, 7, 8 and 11.
     
     The 'Upcoming Gigs' section of the landing page (Home) contains information about Jos upcoming performances for any user that wishes to attend one of her performances. The section has its own heading in the same green used for the page logo and the font is "Great Vibes" the same as is used for all headings on the page. The header has a background strip that is the same same semi-transparent green style as the background used for the 'About Jo' section. The strip is resposnive and reduces in length to fit on smaller viewport sizes thought the font of the heading remains the same size. Each gig is in its own container which is easily identified, duplicated or removed from from the code should gigs need modifying, adding or removing. The name or names of the performer or performers, if a duo, the name of the venue, the town of the venue, the gigs date, start time and entry fee are listed and arranged in a column in the order of importance. The name or names of the performers and the venue name are bold to show they are more important than the information to follow within the gig container and in the same colour as the logo for consistency, aesthetics and accessibility through contrast with the background colour. The town of the venue, date of performance, time of performance and entry fee are the same colour as the performer or performers name and the venue name but are not bold. The are not bold as this information is deemed of lower imortance than the performers and venue names. The gigs section is repsonsive and the gig containers will wrap under eachother should the viewport size necessitate them to. They will always retain their shape and size which were selected for compatibility and readability on likely viewport sizes. Each gig container is a clickable link to the website of the venue which will open the venue's website in a new tab. The name of the venue is underlined and the whole gig container will go opaque from semi-transparent and gain a drop shadow on hover or touching to indicate that it is a clickable link.
 
     ![Upcoming Gigs](assets/readme/readme-upcoming-gigs.jpg)
 
-  - #### Newsletter Request [[Feature](docs/readme-feature-list.pdf) 'Newsletter Signup' (ID 9)]
+  - #### **Newsletter Request** [[Feature](docs/readme-feature-list.pdf) 'Newsletter Signup' (ID 9)]
     - The 'Newsletter Signup' (ID 9) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 7, 8 and 10.
 
     The 'Newsletter Request' section of the landing page (Home) is a form that enables the user to enter their email address to request being added to the newsletter mailing list. It is assumed that the user will be familiar with the concept of a newsletter and so, to keep the page uncluttered and to make it more aesthetically pleasing, this section has no text apart from its heading, (the preferred font being the same "Great Vibes" font as is used for the other headings on the website), the label for the input field, the text in the input field and "Submit" on the submit button. The colour of the heading and the label is the same green as is used for the logo on all the website pages. The email input field validates the input and is a 'required' field meaning that the form will not submit without the field being populated. Being an input of type email it will not allow the submission of the form if the field is missing the @ symbol. For aesthetics, the text in the email input field is a tone of the same green used throughout the user interface. The submit button is the same opaque green as is used for the navigation buttons for continuity and, also for continuity, all the components of the 'Newsletter Request' section are on a semi-transparent green section wide background of the same style as the other headings and the 'About Jo' section of the page. The section is responsive and the email input field will slightly shorten to fit on small viewport sizes. On hover the input field will gai a drop shadow and as user feedback that they have selected the field it will retain the drop shadow when clicked and therefore in focus. In lieu of a dedicated backend process the form is submitted to the Code Institute Form Dump which opens in a new tab and displays the data sent from the form. Using the form dump serves the purpose of confirming the form submits as intended and means that the 'flow' of the site is as it would be if a dedicated backend process was in place.
 
-- ### Weddings Page [[Feature](docs/readme-feature-list.pdf)] 'Wedding offering page with wedding gallery' (ID 7)]
+- ### **Weddings Page** [[Feature](docs/readme-feature-list.pdf)] 'Wedding offering page with wedding gallery' (ID 7)]
   - The 'Wedding offering page with wedding gallery' (ID 7) [feature](docs/readme-feature-list.pdf) is a dependency of [user story](docs/readme-user-stories.pdf) 6.
 
   The 'Weddings Page' is a way for a potential client to get a feel for how Jo approaches a wedding event. It is layed out the same way as the landing page (Home). The header and footer and all associated features of these are identical to the landing page (Home) in all ways with the exception that it is the 'Weddings' navigation button that styled differently from the rest to indicate that it is the Weddings page that the user is in. The background is styled the same as the landing page (Home) but instead of it being an image of Jo with a guitar on a beach it is a wedding themed picture to set the scene for the page. The colours in the background are predominantly greens that harmonise with those of the header, footer and semi-transparent section backdrops and contribute to the desired calm feel of the site which is intended invoke a positive emotional response in the user and therefore improve the user experience.
 
    ![Weddings Page](assets/readme/readme-weddings-page.jpg)
 
-   - Weddings Section
+   - **Weddings Section**
   
      The main body of the Weddings page is the Weddings section which consists of a short write up decribing how Jo will approach providing music for a wedding, followed by a small gallery to give an idea of what a client can expect Jo to look and sound like should Jo or Jo in her duo be booked for a wedding event. The write up is styled the same way as the 'About Jo' sction. 
      
@@ -158,72 +161,72 @@ Features are arranged and combined, when appropriate, into the website in what w
 
      ![Weddings Section](assets/readme/readme-weddings-offering.jpg)
 
-- ### Gallery Page [[Feature](docs/readme-feature-list.pdf)] 'Gallery page (image / video)' (ID 6)]
+- ### **Gallery Page** [[Feature](docs/readme-feature-list.pdf)] 'Gallery page (image / video)' (ID 6)]
   - The 'Gallery page (image / video)' (ID 6) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 3, 4, 9, 10, 11 and 12.
 
   The 'Gallery Page' holds pictures and videos of Jo that can be used for site user interest or research into whether they would like to book Jo or go to one of her gigs. It is layed out the same way as the landing page (Home). The header and the footer and all associated features of these are identical to the landing page (Home) in all ways with the exception that it is the 'Gallery' navigation button that styled differently from the rest to indicate that it is the Gallery page that the user is on. The background image is the same image as the one on the landing page (Home) and it's styled the same way.
 
   ![Gallery Page](assets/readme/readme-gallery-page.jpg)
 
-  - Pictures Gallery Section
+  - **Pictures Gallery Section**
 
     The pictures gallery section has a header that is styled the same as the header used for 'Upcomming Gigs'. The gallery contains a copy of all images to be found across the site (with the exception of the wedding page background image as this is not related to Jos music) to ensure that a visitor who does not visit all of the rest of the site has the opporunity to see all of the pictures. The images are styled the same as the other non-background images on the site (as described in the 'Weddings' section) for consistency.  
 
     ![Pictures Gallery](assets/readme/readme-photo-gallery.jpg)
 
-  - Videos Gallery Section
+  - **Videos Gallery Section**
   
     The Videos Gallery section has a header that is styled the same as the header used for 'Pictures Gallery' and contains a copy of any other videos that are to be found on the rest of the site to ensure that a visitor who does not visit all of the rest of the site has the opporunity to see all of the videos available. The videos are styled the same as the other videos on the site (as described in the 'Weddings' section) and none will play automatically on page load for consistency and the best user experience.
 
     ![Videos Gallery](assets/readme/readme-video-gallery.jpg)
 
-- ### Contact Page [[Feature](docs/readme-feature-list.pdf)] 'Contact Form' (ID 2)]
+- ### **Contact Page** [[Feature](docs/readme-feature-list.pdf)] 'Contact Form' (ID 2)]
   - The 'Contact Form' (ID 2) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 1, 2, 3, 4, 5, 6, 9, 10 and 12.
 
   The contact page allows any site user who wants to contact Jo to do so. The 'Contact Page' is layed out the same way as the landing page (Home). The header and the footer and all associated features of these are identical to the landing page (Home) in all ways with the exception that it is the 'Contact' navigation button that styled differently from the rest to indicate that it is the Contact page that the user is on. The background image is the same image as the one on the landing page (Home) and it's styled the same way.
 
   ![Contact Page](assets/readme/readme-contact-page.jpg)
 
-  - Contact form
+  - **Contact form**
 
-  The contact form allows for validated inputs of the data shown in the image below. It's header, background, input boxes and submit button are styled in the same way as the 'Newsletter Request' section for consistency. The first name and last name fields are required fields and only allow upper and lower case alphabetical characters to be input. The phone field is a required field that only allows numbers. The email field is required and only allows a character string that contains an @ symbol. The Subject drop down is a required field that allows the user to select one of the 4 options 'Wedding', 'Event', 'Venue' or 'Other'. Lastly there is an optional text box for a custom message to Jo. The contact form is responsive and will become narrower on smaller viewports. In lieu of a dedicated backend process the form is submitted to the Code Institute Form Dump which opens in a new tab and displays the data sent from the form. Using the form dump serves the purpose of confirming the form submits as intended and means that the 'flow' of the site is as it would be if a dedicated backend process was in place.
+    The contact form allows for validated inputs of the data shown in the image below. It's header, background, input boxes and submit button are styled in the same way as the 'Newsletter Request' section for consistency. The first name and last name fields are required fields and only allow upper and lower case alphabetical characters to be input. The phone field is a required field that only allows numbers. The email field is required and only allows a character string that contains an @ symbol. The Subject drop down is a required field that allows the user to select one of the 4 options 'Wedding', 'Event', 'Venue' or 'Other'. Lastly there is an optional text box for a custom message to Jo. The contact form is responsive and will become narrower on smaller viewports. In lieu of a dedicated backend process the form is submitted to the Code Institute Form Dump which opens in a new tab and displays the data sent from the form. Using the form dump serves the purpose of confirming the form submits as intended and means that the 'flow' of the site is as it would be if a dedicated backend process was in place.
 
-  ![Contact Form](assets/readme/readme-contact-form.jpg)
+    ![Contact Form](assets/readme/readme-contact-form.jpg)
 
 ## **4. Testing**
+  - ### **Code Validation**
 
-### **Code Validation**
-#### HTML validation
-The website HTML was validated using [The W3C Markup Validation Service](https://validator.w3.org/#validate_by_uri)
+    - #### **HTML validation**
+       The website HTML was validated using [The W3C Markup Validation Service](https://validator.w3.org/#validate_by_uri)
 
-![W3C HTML validator results](assets/readme/test-results/w3c-html-validator-results.jpg)
+       ![W3C HTML validator results](assets/readme/test-results/w3c-html-validator-results.jpg)
 
-#### CSS Validation
-The website CSS was validated using [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
+    - #### CSS Validation
+      The website CSS was validated using [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
 
-![W3C CSS validator results](assets/readme/test-results/w3c-css-validator-results.jpg)
+      ![W3C CSS validator results](assets/readme/test-results/w3c-css-validator-results.jpg)
 
-### **Performance tests**
-Lighthouse tests in dev tools in Chrome were used to verify that that website performed as required.
+- ### **Performance tests**
+  Lighthouse tests in dev tools in Chrome were used to verify that that website performed as required.
 
-![Lighthouse results](assets/readme/test-results/lighthouse-results.jpg)
+  ![Lighthouse results](assets/readme/test-results/lighthouse-results.jpg)
 
-### **Functionality tests**
-When all user tests have passed and the features its dependent on have past then the user story as a whole has passed.
+ - ### **Functionality tests**
+   When all user tests have passed and the features its dependent on have past then the user story as a whole has passed.
 
-- #### [User story acceptance tests](docs/readme-user-story-acceptance.pdf)
+   - #### [User story acceptance tests](docs/readme-user-story-acceptance.pdf)
 
-- #### [Feature acceptance tests](docs/readme-feature-acceptance.pdf)
-  - Note : In additions to the above tests the wesbite was frequently tested for responsivenes in Chrome DevTools and on mobile devices in landscape and portrait mode. The sites responsiveness was also tested on an Apple iPad in portrait and landscape mode and it performed well rearranging and resizing the pages as necessary.
+   - #### [Feature acceptance tests](docs/readme-feature-acceptance.pdf)
+    - Note : In additions to the above tests the wesbite was frequently tested for responsivenes in Chrome DevTools and on mobile devices in landscape and portrait mode. The sites responsiveness was also tested on an Apple iPad in portrait and landscape mode and it performed well rearranging and resizing the pages as necessary.
 
-  - Note : The site has not yet been tested on and Linux based operating systems.
+    - Note : The site has not yet been tested on and Linux based operating systems.
 
-### Project sign off
-[Project sign off](docs/readme-project-sign-off.pdf)
+## **5. Project sign off**
+ - [Project sign off](docs/readme-project-sign-off.pdf)
 
-All feature and user stories have passed all their acceptance tests so the site is deemed ready for release.
+    All feature and user stories have passed all their acceptance tests so the site is deemed ready for release.
 
-## **5. Releases**
+## **6. Releases**
 
 - ### Version 1.0 release : -09-2022
 
@@ -241,12 +244,12 @@ All feature and user stories have passed all their acceptance tests so the site 
   
   - See the [Feature acceptance tests](docs/readme-feature-acceptance.pdf) spreadsheet
 
-## **6. Deployment**
+## **7. Deployment**
 The website is hosted by [GitHub Pages](https://pages.github.com/) from the main branch of the [joanne-geraghty-music Git repository](https://github.com/Stephen-J-Whitaker/joanne-geraghty-music). The deployment procedure can be found at the following link:
 
 - [Deployment Procedure](docs/readme-deployment-procedure.pdf)
 
-## **7. Technologies Used**
+## **8. Technologies Used**
 - CSS
 
 - HTML
@@ -291,23 +294,23 @@ The website is hosted by [GitHub Pages](https://pages.github.com/) from the main
 
 - [The W3C CSS Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/) : Used to validate the website CSS
 
-## **8. Credits**
+## **9. Credits**
 
-### **Content**
-- All code was written by the author, Stephen Whitaker
-- The fonts "Great Vibes" and Lato were sourced on [Google Fonts](https://fonts.google.com/about)
+- ### **Content**
+  - All code was written by the author, Stephen Whitaker
+  - The fonts "Great Vibes" and Lato were sourced on [Google Fonts](https://fonts.google.com/about)
 
-### **Media**
-- All photos and videos used are those of author (Stephen Whitaker) and his wife (Joanne Whitaker) with the exception of the weddings background photo that is of Stephen and Joanne Whitaker but was taken by [Rebecca Roundhill](https://www.rebeccaroundhill.co.uk/)
+- ### **Media**
+  - All photos and videos used are those of author (Stephen Whitaker) and his wife (Joanne Whitaker) with the exception of the weddings background photo that is of Stephen and Joanne Whitaker but was taken by [Rebecca Roundhill](https://www.rebeccaroundhill.co.uk/)
 
-### **External Dependencies**
-- Code Institute form dump : Form posts are currently sent to the Code Institue form dump in lieu of a custom back end process to handle the form posts correctly. Implention of such processes was beyound the scope of this project.
+- ### **External Dependencies**
+  - Code Institute form dump : Form posts are currently sent to the Code Institue form dump in lieu of a custom back end process to handle the form posts correctly. Implention of such processes was beyound the scope of this project.
 
-### **Other sources**
-- Guidance on the markdown and structure to produce the readme was obtained from :
-   - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
-   - [Markdown for readme](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- ### **Other sources**
+  - Guidance on the markdown and structure to produce the readme was obtained from :
+    - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
+    - [Markdown for readme](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-### **Acknowledgements**
-- A special thank you to my mentor Maranatha Ilesanmi
-- Thank you to all those who were kind enough to test the website and provide feedback
+- ### **Acknowledgements**
+  - A special thank you to my mentor Maranatha Ilesanmi
+  - Thank you to all those who were kind enough to test the website and provide feedback
