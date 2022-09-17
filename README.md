@@ -137,7 +137,7 @@ Features are arranged and combined, when appropriate, into the website in what w
   - #### Newsletter Request [[Feature](docs/readme-feature-list.pdf) 'Newsletter Signup' (ID 9)]
     - The 'Newsletter Signup' (ID 9) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 7, 8 and 10.
 
-    The 'Newsletter Request' section of the landing page (Home) is a form that enables the user to enter their email address to request being added to the newsletter mailing list. It is assumed that the user will be familiar with the concept of a newsletter and so, to keep the page uncluttered and to make it more aesthetically pleasing, this section has no text apart from its heading, (the preferred font being the same "Great Vibes" font as is used for the other headings on the website), the label for the input field, the text in the input field and "Submit" on the submit button. The colour of the heading and the label is the same green as is used for the logo on all the website pages. The email input field validates the input and is a 'required' field meaning that the form will not submit without the field being populated. Being an input of type email it will not allow the submission of the form if the field is missing the @ symbol. For aesthetics, the text in the email input field is a tone of the same green used throughout the user interface. The submit button is the same opaque green as is used for the navigation buttons for continuity and, also for continuity, all the components of the 'Newsletter Request' section are on a semi-transparent green section wide background of the same style as the other headings and the 'About Jo' section of the page. The section is responsive and the email input field will slightly shorten to fit on small viewport sizes. In lieu of a dedicated backend process the form is submitted to the Code Institute Form Dump which opens in a new tab and displays the data sent from the form. Using the form dump serves the purpose of confirming the form submits as intended and means that the 'flow' of the site is as it would be if a dedicated backend process was in place.
+    The 'Newsletter Request' section of the landing page (Home) is a form that enables the user to enter their email address to request being added to the newsletter mailing list. It is assumed that the user will be familiar with the concept of a newsletter and so, to keep the page uncluttered and to make it more aesthetically pleasing, this section has no text apart from its heading, (the preferred font being the same "Great Vibes" font as is used for the other headings on the website), the label for the input field, the text in the input field and "Submit" on the submit button. The colour of the heading and the label is the same green as is used for the logo on all the website pages. The email input field validates the input and is a 'required' field meaning that the form will not submit without the field being populated. Being an input of type email it will not allow the submission of the form if the field is missing the @ symbol. For aesthetics, the text in the email input field is a tone of the same green used throughout the user interface. The submit button is the same opaque green as is used for the navigation buttons for continuity and, also for continuity, all the components of the 'Newsletter Request' section are on a semi-transparent green section wide background of the same style as the other headings and the 'About Jo' section of the page. The section is responsive and the email input field will slightly shorten to fit on small viewport sizes. On hover the input field will gai a drop shadow and as user feedback that they have selected the field it will retain the drop shadow when clicked and therefore in focus. In lieu of a dedicated backend process the form is submitted to the Code Institute Form Dump which opens in a new tab and displays the data sent from the form. Using the form dump serves the purpose of confirming the form submits as intended and means that the 'flow' of the site is as it would be if a dedicated backend process was in place.
 
 - ### Weddings Page [[Feature](docs/readme-feature-list.pdf)] 'Wedding offering page with wedding gallery' (ID 7)]
   - The 'Wedding offering page with wedding gallery' (ID 7) [feature](docs/readme-feature-list.pdf) is a dependency of [user story](docs/readme-user-stories.pdf) 6.
@@ -208,14 +208,14 @@ Lighthouse tests in dev tools in Chrome were used to verify that that website pe
 
 ![Lighthouse results](assets/readme/test-results/lighthouse-results.jpg)
 
-<!-- ### **Functionality tests**
+### **Functionality tests**
 When all user tests have passed and the features its dependent on have past then the user story as a whole has passed.
 
 - #### User story acceptance tests
   [User story acceptance tests](docs/readme-user-story-acceptance.pdf)
 
 - #### Feature acceptance tests
-  [Feature acceptance tests](docs/readme-feature-acceptance.pdf) -->
+  [Feature acceptance tests](docs/readme-feature-acceptance.pdf)
 
 ### Project sign off
 [Project sign off](docs/readme-project-sign-off.pdf)
