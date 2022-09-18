@@ -8,7 +8,7 @@ The [‘Joanne Geraghty Music’](https://stephen-j-whitaker.github.io/joanne-ge
 
 1 [Project Initiation](#1-Project-Initiation)
 
-2 [Product Development](#2-Product-Development)
+2 [Website Development](#2-Website-Development)
 
 3 [Features](#3-Features)
 
@@ -27,11 +27,11 @@ The [‘Joanne Geraghty Music’](https://stephen-j-whitaker.github.io/joanne-ge
 ## **1. Project Initiation**
 1. Brainstorming sessions helped to ascertain the business and user needs:
 
-    - [Business opportunities and business and user needs brainstorm](docs/readme-brainstorm.pdf)
+    - [Business opportunities and user needs brainstorm](docs/readme-brainstorm.pdf)
 
 2. The business opportunities were assessed for importance and viability and the minimum viable product was ascertained:
 
-    - [Minimum viable product analysis spreadsheet](docs/readme-opportunity-analysis.pdf)
+    - [Minimum viable product analysis of business opportunities](docs/readme-opportunity-analysis.pdf)
 
     - [Minimum viable product analysis charts](docs/readme-scope-analysis.pdf)
 
@@ -47,8 +47,8 @@ The [‘Joanne Geraghty Music’](https://stephen-j-whitaker.github.io/joanne-ge
 
     - [Feature list](docs/readme-feature-list.pdf)
 
-## **2. Product Development**
-- ### **Product Functionalilty Development**
+## **2. Website Development**
+- ### **Website Functionalilty Development**
 
   - ### Wireframes 
     Wireframes were developed for a site that incorporated all of the required features identified during project initiation.
@@ -65,7 +65,7 @@ The [‘Joanne Geraghty Music’](https://stephen-j-whitaker.github.io/joanne-ge
 
     - [Mockup with colour scheme](docs/readme-mockup-colour-scheme.pdf)
 
-- ### **Product Style Development**
+- ### **Website Style Development**
   - ### Typography
     It was decided to use one cursive font, one serif and one sans serif font throughout the site. The cursive font "Great Vibes" ([Google Fonts](https://fonts.google.com/about)) is used for the logo and the headings on all the web pages, the preferred serif font "Times New Roman" is only used for the text "Music for all occasions" in the logo and the sans serif font Arial is used for all other text. The use of the same 3 preferred fonts on all pages provides continuity and is intended to help the pages look uncluttered and make the site a more pleasant place to be for its users.
 
@@ -173,13 +173,13 @@ Features are arranged and combined, when appropriate, into the website in what w
 
   ![Gallery Page](assets/readme/readme-gallery-page.jpg)
 
-  - **Pictures Gallery Section**
+  - **Photo Gallery Section**
 
     The pictures gallery section has a header that is styled the same as the header used for 'Upcoming Gigs'. The gallery contains a copy of all images to be found across the site (with the exception of the wedding page background image as this is not related to Jos music) to ensure that a visitor who does not visit all of the rest of the site has the opportunity to see all of the pictures. The images are styled the same as the other non-background images on the site (as described in the 'Weddings' section) for consistency.  
 
     ![Pictures Gallery](assets/readme/readme-photo-gallery.jpg)
 
-  - **Videos Gallery Section**
+  - **Video Gallery Section**
   
     The Videos Gallery section has a header that is styled the same as the header used for 'Pictures Gallery' and contains a copy of any other videos that are to be found on the rest of the site to ensure that a visitor who does not visit all of the rest of the site has the opportunity to see all of the videos available. The videos are styled the same as the other videos on the site (as described in the 'Weddings' section) and none will play automatically on page load for consistency and the best user experience.
 
@@ -228,8 +228,8 @@ Features are arranged and combined, when appropriate, into the website in what w
        - Note : The site has not yet been tested on and Linux based operating systems.
 
     - Responsiveness
-    
-          In additions to the above tests the website was frequently tested for responsiveness in Chrome DevTools and on mobile devices in landscape and portrait mode. The sites responsiveness was also tested on an Apple iPad in portrait and landscape mode and it performed well rearranging and resizing the pages as necessary. How the site responds as necessary on smaller viewports is described in the features sections and the site performed as per its design. Flex is used a lot in the implementation of the design and this automatically arranges parts of the page in response to different screen sizes. For example the gig information containers wrap under each other on smaller screens and so do gallery images and videos. Media queries are used where further changes to the layout and size of interface components are needed to accommodate screen size changes. The main logo text is increased in size when the screen width is 640px and above. This has the effect of making the logo larger on screens at this size and above. When the screen width is above 1100px (the required width for these changes was determined in Chrome DevTools) the flex property for the navigation elements is changed to flex-end from center to ensure then position to the right hand side of the header. On screens 1100px and above the background of the contact form becomes 40% of its parent width to restrict its size and keep it looking aesthetically pleasing and the newsletter email input box becomes slightly longer, again for aesthetics. 
+      
+      In additions to the above tests the website was frequently tested for responsiveness in Chrome DevTools and on mobile devices in landscape and portrait mode. The sites responsiveness was also tested on an Apple iPad in portrait and landscape mode and it performed well rearranging and resizing the pages as necessary. How the site responds as necessary on smaller viewports is described in the features sections and the site performed as per its design. Flex is used a lot in the implementation of the design and this automatically arranges parts of the page in response to different screen sizes. For example the gig information containers wrap under each other on smaller screens and so do gallery images and videos. Media queries are used where further changes to the layout and size of interface components are needed to accommodate screen size changes. The main logo text is increased in size when the screen width is 640px and above. This has the effect of making the logo larger on screens at this size and above. When the screen width is above 1100px (the required width for these changes was determined in Chrome DevTools) the flex property for the navigation elements is changed to flex-end from center to ensure then position to the right hand side of the header. On screens 1100px and above the background of the contact form becomes 40% of its parent width to restrict its size and keep it looking aesthetically pleasing and the newsletter email input box becomes slightly longer, again for aesthetics. 
 
        - [Examples of responsiveness](docs/readme-responsiveness-examples.pdf)
   - ### **Other testing**
