@@ -86,7 +86,7 @@ Features are arranged and combined, when appropriate, into the website in what w
 - ### **Landing page** [[Feature](docs/readme-feature-list.pdf) 'Landing Page' (ID 3)]
   - The 'Landing page' (ID 3) [feature](docs/readme-feature-list.pdf) is a dependency of all of the [user stories](docs/readme-user-stories.pdf). 
   - Implemented in [index.html](index.html)
-  
+
   The landing page (Home) is the site visitors welcome to the site. The background picture is Jo with a guitar to indicate she is a musician and if a user has seen Jo before then they will know on seeing the background image that they have found the correct site. A light coloured background picture was chosen with colours that harmonise with the colours of the interface and helps set the mood of the page and the site as a whole. In case the background image is partially obscured by the objects on the page (dependent on viewport size) the same picture of Jo is also in the 'About Jo' section of the Landing Page (Home).
  
   ![The Landing Page](assets/readme/readme-landing-page.jpg)
@@ -147,6 +147,7 @@ Features are arranged and combined, when appropriate, into the website in what w
 
 - ### **Weddings Page** [[Feature](docs/readme-feature-list.pdf)] 'Wedding offering page with wedding gallery' (ID 7)]
   - The 'Wedding offering page with wedding gallery' (ID 7) [feature](docs/readme-feature-list.pdf) is a dependency of [user story](docs/readme-user-stories.pdf) 6.
+  - Implemented in [weddings.html](weddings.html)
 
   The 'Weddings Page' is a way for a potential client to get a feel for how Jo approaches a wedding event. It is layed out the same way as the landing page (Home). The header and footer and all associated features of these are identical to the landing page (Home) in all ways with the exception that it is the 'Weddings' navigation button that styled differently from the rest to indicate that it is the Weddings page that the user is in. The background is styled the same as the landing page (Home) but instead of it being an image of Jo with a guitar on a beach it is a wedding themed picture to set the scene for the page. The colours in the background are predominantly greens that harmonise with those of the header, footer and semi-transparent section backdrops and contribute to the desired calm feel of the site which is intended invoke a positive emotional response in the user and therefore improve the user experience.
 
@@ -166,6 +167,7 @@ Features are arranged and combined, when appropriate, into the website in what w
 
 - ### **Gallery Page** [[Feature](docs/readme-feature-list.pdf)] 'Gallery page (image / video)' (ID 6)]
   - The 'Gallery page (image / video)' (ID 6) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 3, 4, 9, 10, 11 and 12.
+  - Implemented in [gallery.html](gallery.html) 
 
   The 'Gallery Page' holds pictures and videos of Jo that can be used for site user interest or research into whether they would like to book Jo or go to one of her gigs. It is layed out the same way as the landing page (Home). The header and the footer and all associated features of these are identical to the landing page (Home) in all ways with the exception that it is the 'Gallery' navigation button that styled differently from the rest to indicate that it is the Gallery page that the user is on. The background image is the same image as the one on the landing page (Home) and it's styled the same way.
 
@@ -185,6 +187,7 @@ Features are arranged and combined, when appropriate, into the website in what w
 
 - ### **Contact Page** [[Feature](docs/readme-feature-list.pdf)] 'Contact Form' (ID 2)]
   - The 'Contact Form' (ID 2) [feature](docs/readme-feature-list.pdf) is a dependency of [user stories](docs/readme-user-stories.pdf) 1, 2, 3, 4, 5, 6, 9, 10 and 12.
+  - Impletmented in [contact.html](contact.html)
 
   The contact page allows any site user who wants to contact Jo to do so. The 'Contact Page' is layed out the same way as the landing page (Home). The header and the footer and all associated features of these are identical to the landing page (Home) in all ways with the exception that it is the 'Contact' navigation button that styled differently from the rest to indicate that it is the Contact page that the user is on. The background image is the same image as the one on the landing page (Home) and it's styled the same way.
 
@@ -222,9 +225,13 @@ Features are arranged and combined, when appropriate, into the website in what w
    - #### [User story acceptance tests](docs/readme-user-story-acceptance.pdf)
 
    - #### [Feature acceptance tests](docs/readme-feature-acceptance.pdf)
-    - Note : In additions to the above tests the wesbite was frequently tested for responsivenes in Chrome DevTools and on mobile devices in landscape and portrait mode. The sites responsiveness was also tested on an Apple iPad in portrait and landscape mode and it performed well rearranging and resizing the pages as necessary.
+       - Note : The site has not yet been tested on and Linux based operating systems.
+    - Responsiveness
+    
+      In additions to the above tests the wesbite was frequently tested for responsiveness in Chrome DevTools and on mobile devices in landscape and portrait mode. The sites responsiveness was also tested on an Apple iPad in portrait and landscape mode and it performed well rearranging and resizing the pages as necessary. How the site responds as necessary on smaller viewports is described in the features sections and the site performed as per its design. Flex is used a lot in the implementation of the design and this automatically arranges parts of the page in response to different screen sizes. For example the gig information containers wrap under eachother on smaller screens and so do gallery images and videos. Media queries are used where further changes to the layout and size of interface components are needed to accomodate screen size changes. The main logo text is increased in size when the screen width is 640px and above. This has the effect of making the logo larger on screens at this size and above. When the screen width is above 1100px (the required width for these changes was determined in Chrome DevTools) the flex property for the navigation elements is changed to flex-end from center to ensure then position to the right hand side of the header. On screens 1100px and above the background of the contact form becomes 40% of its parent width to restrict its size and keep it looking aesthetically pleasing and the newsletter email input box becomes slightly longer, again for aesthetics. 
 
-    - Note : The site has not yet been tested on and Linux based operating systems.
+       - [Examples of responsiveness](docs/readme-responsiveness-examples.pdf)
+
 - ### **Bugs found and resolved or current**
   - Pre accceptance bugs / issues : resolved
     - Note : Selector drop down box on contact form page is not styled correctly on Apple iPhone IOS - this cannot be resolved without webkit CSS extensions and so is not deemed a website bug.
@@ -254,6 +261,8 @@ Features are arranged and combined, when appropriate, into the website in what w
 The website is hosted by [GitHub Pages](https://pages.github.com/) from the main branch of the [joanne-geraghty-music Git repository](https://github.com/Stephen-J-Whitaker/joanne-geraghty-music). The deployment procedure can be found at the following link:
 
 - [Deployment Procedure](docs/readme-deployment-procedure.pdf)
+
+- The live site can be found [here](https://stephen-j-whitaker.github.io/joanne-geraghty-music/index.html)
 
 ## **8. Technologies Used**
 - CSS
