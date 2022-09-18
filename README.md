@@ -88,7 +88,7 @@ Features are arranged and combined, when appropriate, into the website in what w
 
   The landing page (Home) is the site visitors welcome to the site. The background picture is Jo with a guitar to indicate she is a musician and if a user has seen Jo before then they will know on seeing the background image that they have found the correct site. A light coloured background picture was chosen with colours that harmonise with the colours of the interface and helps set the mood of the page and the site as a whole. In case the background image is partially obscured by the objects on the page (dependent on viewport size) the same picture of Jo is also in the 'About Jo' section of the Landing Page (Home).
  
-   ![The Landing Page](assets/readme/readme-landing-page.jpg)
+  ![The Landing Page](assets/readme/readme-landing-page.jpg)
 
    - #### **Header and Footer**
      The Landing page contains a header and a footer that is repeated on all of the website's pages for continuity, ease of navigation and an overall better user experience. The footer will stick at the bottom of the viewport should the content of the page not be large enough to 'push' the footer to the bottom of the viewport. The header and the footer are the same colours, are semi-transparent to give the wesbite a 'light' and airy feel and to reveal the background image through them. They are a slightly darker tone of the same colour as the rest of the user interface and have a subtle drop shadow to 'lift' them away from the main content and to give the site an illusion of depth. Both the header and footer and their contents, where necessary, are responsive and resize so they are accomodated by smaller viewports.
@@ -220,6 +220,19 @@ Features are arranged and combined, when appropriate, into the website in what w
     - Note : In additions to the above tests the wesbite was frequently tested for responsivenes in Chrome DevTools and on mobile devices in landscape and portrait mode. The sites responsiveness was also tested on an Apple iPad in portrait and landscape mode and it performed well rearranging and resizing the pages as necessary.
 
     - Note : The site has not yet been tested on and Linux based operating systems.
+- ### **Bugs found and resolved or current**
+  - Pre accceptance test bugs / issues resolved
+    - Note : Selector drop down box on contact form page is not styled correctly on Apple iPhone IOS - this cannot be resolved without webkit CSS extensions and so is not deemed a website bug.
+
+    - H265 mpeg video was not supported by some browsers. Bug resolution : Transcoded with [VLC](https://www.videolan.org/) to H264.
+
+    - Embedded audio in videos was not supported by IOS. Bug resolution : Transcoded with [VLC](https://www.videolan.org/) to contain AAC audio.
+
+    - Text was unreadable on Android phones on the semi-transparent backgrounds as Arial was not installed on the Android phones tested with and the browser fell back to the Android default sans serif font which was extremely thin. Bug resolution : Google fonts Lato was added as a fallback for Arial.
+ 
+  - Current bugs / issues
+  
+  - See the [Feature acceptance tests](docs/readme-feature-acceptance.pdf) spreadsheet
 
 ## **5. Project sign off**
  - [Project sign off](docs/readme-project-sign-off.pdf)
@@ -228,21 +241,7 @@ Features are arranged and combined, when appropriate, into the website in what w
 
 ## **6. Releases**
 
-- ###  -09-2022 : Version 1.0
-
-### **Bugs found and resolved or current**
-- Pre accceptance test bugs / issues resolved
-  - Note : Selector drop down box on contact form page is not styled correctly on Apple iPhone IOS - this cannot be resolved without webkit CSS extensions and so is not deemed a website bug.
-
-  - H265 mpeg video was not supported by some browsers. Bug resolution : Transcoded with [VLC](https://www.videolan.org/) to H264.
-
-  - Embedded audio in videos was not supported by IOS. Bug resolution : Transcoded with [VLC](https://www.videolan.org/) to contain AAC audio.
-
-  - Text was unreadable on Android phones on the semi-transparent backgrounds as Arial was not installed on the Android phones tested with and the browser fell back to the Android default sans serif font which was extremely thin. Bug resolution : Google fonts Lato was added as a fallback for Arial.
- 
-- Current bugs / issues
-  
-  - See the [Feature acceptance tests](docs/readme-feature-acceptance.pdf) spreadsheet
+- ###  Version 1.0 First release : Date 18/09/2022
 
 ## **7. Deployment**
 The website is hosted by [GitHub Pages](https://pages.github.com/) from the main branch of the [joanne-geraghty-music Git repository](https://github.com/Stephen-J-Whitaker/joanne-geraghty-music). The deployment procedure can be found at the following link:
