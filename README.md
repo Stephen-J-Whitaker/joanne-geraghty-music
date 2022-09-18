@@ -228,7 +228,7 @@ Features are arranged and combined, when appropriate, into the website in what w
 
 ## **6. Releases**
 
-- ### Version 1.0 release : -09-2022
+- ###  -09-2022 : Version 1.0
 
 ### **Bugs found and resolved or current**
 - Pre accceptance test bugs / issues resolved
@@ -297,11 +297,11 @@ The website is hosted by [GitHub Pages](https://pages.github.com/) from the main
 ## **9. Credits**
 
 - ### **Content**
-  - All code was written by the author, Stephen Whitaker
+  - All code was written by the author, [Stephen Whitaker](https://github.com/Stephen-J-Whitaker)
   - The fonts "Great Vibes" and Lato were sourced on [Google Fonts](https://fonts.google.com/about)
 
 - ### **Media**
-  - All photos and videos used are those of author (Stephen Whitaker) and his wife (Joanne Whitaker) with the exception of the weddings background photo that is of Stephen and Joanne Whitaker but was taken by [Rebecca Roundhill](https://www.rebeccaroundhill.co.uk/)
+  - All photos and videos used are those of the author, [Stephen Whitaker](https://github.com/Stephen-J-Whitaker), and [Joanne Whitaker (Geraghty)](https://stephen-j-whitaker.github.io/joanne-geraghty-music/index.html) with the exception of the weddings page background photo that is of Stephen and [Joanne Whitaker (Geraghty)](https://stephen-j-whitaker.github.io/joanne-geraghty-music/index.html) and was taken by [Rebecca Roundhill](https://www.rebeccaroundhill.co.uk/)
 
 - ### **External Dependencies**
   - Code Institute form dump : Form posts are currently sent to the Code Institue form dump in lieu of a custom back end process to handle the form posts correctly. Implention of such processes was beyound the scope of this project.
@@ -314,3 +314,5 @@ The website is hosted by [GitHub Pages](https://pages.github.com/) from the main
 - ### **Acknowledgements**
   - A special thank you to my mentor Maranatha Ilesanmi
   - Thank you to all those who were kind enough to test the website and provide feedback
+
+  ## [Back to top](#contents)
