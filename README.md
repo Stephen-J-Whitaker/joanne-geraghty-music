@@ -114,7 +114,7 @@ Features are arranged and combined, when appropriate, into the website in what w
         - #### **Social Media Links** [[Feature](docs/readme-feature-list.pdf) 'Social Media Links' (ID 8)]
           - The 'Social Media Links' (ID 8) [feature](docs/readme-feature-list.pdf) are a dependency of [user stories](docs/readme-user-stories.pdf) 3, 7, 8, 9, 11 and 12. 
 
-          The social media links (svg icons sourced from [Font Awsome](https://fontawesome.com/)) will take the user to the social media pages of Joanne Geraghty so that the user can follow Jo or view additional information not available on the site. They all open in a new tab for the benefit of user experience. On hovering over them with a cursor or touching them they gain a surrounding box with a drop shadow as feedback to the user that indicates that they are a clickable link. They are the same colour as the logo text for aesthetics. SVG icons were chosen to ensure they would always be as sharp as possible if resizing became necessary for site responsiveness.
+          The social media links (svg icons sourced from [Font Awesome](https://fontawesome.com/)) will take the user to the social media pages of Joanne Geraghty so that the user can follow Jo or view additional information not available on the site. They all open in a new tab for the benefit of user experience. On hovering over them with a cursor or touching them they gain a surrounding box with a drop shadow as feedback to the user that indicates that they are a clickable link. They are the same colour as the logo text for aesthetics. SVG icons were chosen to ensure they would always be as sharp as possible if resizing became necessary for site responsiveness.
 
           ![Social Media Links](assets/readme/readme-social-media-links.jpg)
 
@@ -304,7 +304,7 @@ The website is hosted by [GitHub Pages](https://pages.github.com/) from the main
 
 - [Google Fonts](https://fonts.google.com/about) : Used for fonts "Great Vibes" and Lato
 
-- [Font Awsome](https://fontawesome.com/) : Used to source social media svg files
+- [Font Awesome](https://fontawesome.com/) : Used to source social media svg files
 
 - Code Institute form dump : Form data is sent to this form dump in lieu of implementation of a custom back end process to handle the incoming form posts
 
@@ -317,6 +317,7 @@ The website is hosted by [GitHub Pages](https://pages.github.com/) from the main
 - ### **Content**
   - All code was written by the author, [Stephen Whitaker](https://github.com/Stephen-J-Whitaker)
   - The fonts "Great Vibes" and Lato were sourced on [Google Fonts](https://fonts.google.com/about)
+  - The footer social media icons were taken from [Font Awesome](https://fontawesome.com/)
 
 - ### **Media**
   - All photos and videos used are those of the author, [Stephen Whitaker](https://github.com/Stephen-J-Whitaker), and [Joanne Whitaker (Geraghty)](https://stephen-j-whitaker.github.io/joanne-geraghty-music/index.html) with the exception of the weddings page background photo that is of Stephen and [Joanne Whitaker (Geraghty)](https://stephen-j-whitaker.github.io/joanne-geraghty-music/index.html) and was taken by [Rebecca Roundhill](https://www.rebeccaroundhill.co.uk/)
